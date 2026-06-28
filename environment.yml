@@ -1,0 +1,12 @@
+name: fundamentals-iot-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyter
+  - nbconvert
+  - nbclient
+  - ipykernel

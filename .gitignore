@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Notebook execution outputs generated locally
+executed_notebooks/
+notebook_outputs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local environment files and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jsonl
+
+# Large/private local data
+data/raw/
+data/private/
+data/interim/
