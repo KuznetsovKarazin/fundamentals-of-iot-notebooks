@@ -21,5 +21,12 @@
     "Runtime timing values are machine dependent.",
     "The environment.yml and requirements.txt provide the scientific package versions actually exercised; JupyterLab and ipykernel ranges are interface dependencies.",
     "The original notebooks and their existing outputs are preserved when execution finds no error."
-  ]
+  ],
+  "record_scope": "Local IPython-process audit on 2026-09-28; subsequent real Jupyter-kernel CI evidence is recorded separately in github-actions-validation.json.",
+  "subsequent_github_actions_validation": {
+    "run_id": 36489488328,
+    "conclusion": "success",
+    "head_sha": "b84ef3c428d2e19bcfde3996d7c3a7871276db21",
+    "record": "github-actions-validation.json"
+  }
 }

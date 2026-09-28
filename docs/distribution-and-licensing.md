@@ -16,6 +16,6 @@ Public availability of a companion notebook does not imply permission to upload 
 
 ## Access and versions
 
-Repository access and copyright permission are different matters: a private repository requires access even where a file carries a reuse license. Colab links based on GitHub may therefore require authorization while the repository remains private. The dated Drive snapshot offers an alternative download route according to its sharing settings.
+This repository is publicly accessible, and its GitHub-backed Colab links provide a direct route to the notebooks. Public access does not change the license or publisher permissions applicable to each type of material. The dated Drive snapshot is an alternative download route; individual legacy Drive copies are still awaiting synchronization.
 
 Record the exact repository commit or release when citing computational work. Do not treat a mutable Drive copy or the `main` branch as an archival version.

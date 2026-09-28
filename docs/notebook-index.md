@@ -5,7 +5,7 @@ All 28 notebooks accompany *Fundamentals of the Internet of Things* by Oleksandr
 ## Chapter links
 
 - **Notebook** opens the version stored in this repository.
-- **Colab** runs that GitHub version in Google Colab. Private repository access may be required.
+- **Colab** opens the notebook from this public GitHub repository in Google Colab.
 - **Drive snapshot:** [download all 28 checked notebooks](https://drive.google.com/file/d/1I9LOAvg60-IoF98NInUrroKNQ8DnRJaX/view), extract the ZIP, and upload your chosen `.ipynb` to Colab. Individual legacy Drive copies are awaiting synchronization; use this dated snapshot for the checked version.
 
 | Chapter | Topic | Notebook | Colab |
@@ -62,4 +62,4 @@ Other teaching signals and inputs are generated or defined within their notebook
 
 GitHub is the versioned source for the companion package; the dated Drive ZIP provides a downloadable snapshot for teaching. Existing individual chapter Drive links are retained in the manuscript, but their synchronization is a separate publication task. When reporting a result, record the GitHub commit or release and the environment you actually used. A link to the moving `main` branch alone does not identify an immutable experiment.
 
-If a GitHub-backed Colab link cannot access this repository, download the checked Drive ZIP and upload a notebook to Colab. Refer to the [main README](../README.md) for local setup.
+If a GitHub-backed Colab link fails to load, download the notebook from GitHub or the checked Drive ZIP and upload a notebook to Colab. Refer to the [main README](../README.md) for local setup.

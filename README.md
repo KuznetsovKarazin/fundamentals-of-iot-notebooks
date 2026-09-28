@@ -6,7 +6,7 @@
 
 The Python companion to *Fundamentals of the Internet of Things*, a textbook in preparation for Morgan Kaufmann / Elsevier. Explore IoT engineering through **28 chapter notebooks**: start with virtual telemetry, investigate sensors and communication systems, then plan a reproducible deployment or capstone project.
 
-The learning loop is simple: **run → inspect → modify → rerun → explain**. The core exercises use a CPU runtime and do not require a physical IoT board. Read the assumptions in each notebook: simulated signals and illustrative planning data are not measurements from a real deployment.
+The Chapter 1 workflow is **open → run → inspect → modify → rerun → interpret**. The core exercises use a CPU runtime and do not require a physical IoT board. Read the assumptions in each notebook: simulated signals and illustrative planning data are not measurements from a real deployment.
 
 [Start with Chapter 1](notebooks/ch01-first-steps-python-colab.ipynb) · [Notebook index](docs/notebook-index.md) · [Package contents](PACKAGE_CONTENTS.md)
 
@@ -17,19 +17,19 @@ The learning loop is simple: **run → inspect → modify → rerun → explain*
 3. Read the setup cells, then choose **Runtime → Run all**. Run from the top in a fresh runtime when checking reproducibility.
 4. Inspect the tables and plots, try the challenge tasks, and explain how your changed assumptions affect the result.
 
-GitHub-backed Colab links require repository access while this repository is private. You can also [download the checked 28-notebook snapshot from Google Drive](https://drive.google.com/file/d/1I9LOAvg60-IoF98NInUrroKNQ8DnRJaX/view), extract it, and select **File → Upload notebook** in Colab. This dated ZIP is the current Drive snapshot; individual chapter copies are still awaiting synchronization. Record the GitHub commit or the dated snapshot when reporting which version you ran.
+This repository is public; the Colab links below open notebooks directly from GitHub. You can also [download the checked 28-notebook snapshot from Google Drive](https://drive.google.com/file/d/1I9LOAvg60-IoF98NInUrroKNQ8DnRJaX/view), extract it, and select **File → Upload notebook** in Colab. This dated ZIP is the current Drive snapshot; individual chapter copies are still awaiting synchronization. Record the GitHub commit or the dated snapshot when reporting which version you ran.
 
 ## Choose a learning track
 
-These tracks follow the book's table of contents. The suggested durations assume teaching time for theory, discussion, and exercises.
+These paths reproduce Chapter 1, Table 1.1 ("Suggested learning paths through Volume 1"). They are examples rather than rigid curricula; instructors may assign selected sections when time is limited.
 
-| Track | Chapters | Suggested duration | Focus |
+| Path | Typical use | Core route | Selective extensions |
 |:--|:--|:--|:--|
-| Short introductory course | 1–9, 22, 25 | 10–12 weeks | Foundations, platforms, sensing, MQTT, and HTTP |
-| Sensors and data | 1–16 | 12–15 weeks | Sensing, acquisition, processing, integration, and calibration |
-| Communications | 1–9, 17–26 | 12–15 weeks | Wireless systems, application protocols, and stack selection |
-| Full IoT course | 1–26 | 20–24 weeks | Foundations through protocol engineering |
-| Advanced / research | 1–28 | Adapt to project scope | Adds deployment, capstone design, and research planning |
+| Short IoT survey | 8–10 week module or compact introductory course | 1–3, 5–7, 9, 17, 22, 25 | 4, 8, 18 or 20, 26; Chapter 28 mini-project |
+| Balanced one-semester IoT | 14–15 week undergraduate course | 1–7, 9, 17, 22, 25–26 | Selected topics from 10–16 and 18–24; Chapter 28 project |
+| Sensors and embedded systems | CE/EE-oriented course | 1–6, 9–16, 27 | 17–18, 22, 28 |
+| Networking and IoT communications | CS/networking-oriented course | 1–3, 6–7, 17–26 | 9–10, 27–28 |
+| Full-volume / extended path | Two-semester course, intensive self-study, or reference use | 1–28 | Deeper exercises and project extensions selected by the instructor |
 
 ## Explore the chapters
 
@@ -101,7 +101,9 @@ A Conda environment is also described in [`environment.yml`](environment.yml). S
 
 ## Validation
 
-All **28 notebooks and 332 code cells** completed an independent sequential execution on 28 September 2026 with the recorded Python 3.12 environment. See [validation details](docs/validation.md) for the method, exact package versions, and limits. This check exercised notebook code in isolated IPython processes; it did not run the hosted Google Colab interface.
+All **28 notebooks and 332 code cells** completed the recorded local execution on 28 September 2026. A second check, [GitHub Actions run 36489488328](https://github.com/KuznetsovKarazin/fundamentals-of-iot-notebooks/actions/runs/36489488328), completed successfully for commit [`b84ef3c428d2`](https://github.com/KuznetsovKarazin/fundamentals-of-iot-notebooks/commit/b84ef3c428d2e19bcfde3996d7c3a7871276db21) on `main`, executing all 28 notebooks through separate Jupyter kernels in clean working directories.
+
+See [validation details](docs/validation.md) for the two methods, recorded environment, and limits. The hosted Google Colab interface and physical hardware were not tested by these checks.
 
 ## Reproduce and extend
 

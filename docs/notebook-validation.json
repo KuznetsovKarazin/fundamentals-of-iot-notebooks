@@ -373,5 +373,12 @@
       "executable_ast_unchanged": true,
       "code_matches_final_validation_execution": true
     }
-  ]
+  ],
+  "record_scope": "Local IPython-process audit on 2026-09-28; subsequent real Jupyter-kernel CI evidence is recorded separately in github-actions-validation.json.",
+  "subsequent_github_actions_validation": {
+    "run_id": 36489488328,
+    "conclusion": "success",
+    "head_sha": "b84ef3c428d2e19bcfde3996d7c3a7871276db21",
+    "record": "github-actions-validation.json"
+  }
 }

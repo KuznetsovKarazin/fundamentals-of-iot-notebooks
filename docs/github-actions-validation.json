@@ -1,0 +1,80 @@
+{
+  "repository": "KuznetsovKarazin/fundamentals-of-iot-notebooks",
+  "run_id": 36489488328,
+  "name": "Notebook smoke test",
+  "head_sha": "b84ef3c428d2e19bcfde3996d7c3a7871276db21",
+  "head_branch": "main",
+  "status": "completed",
+  "conclusion": "success",
+  "run_attempt": 1,
+  "html_url": "https://github.com/KuznetsovKarazin/fundamentals-of-iot-notebooks/actions/runs/36489488328",
+  "created_at": "2026-09-28T21:57:48Z",
+  "updated_at": "2026-09-28T22:01:26Z",
+  "checked_at": "2026-09-28T22:01:52.980Z",
+  "jobs": [
+    {
+      "id": 109154379431,
+      "name": "execute-notebooks",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 36489488328,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Check out repository",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Set up Python",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Execute notebooks",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Post Set up Python",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Post Check out repository",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        }
+      ]
+    }
+  ],
+  "method": "nbclient; separate python3 Jupyter kernel and temporary working directory per notebook; nbformat validation; allow_errors=False; 600-second cell timeout.",
+  "notebooks_expected": 28,
+  "notebooks_passed": 28,
+  "runner_requested": "ubuntu-latest",
+  "python_requested": "3.12",
+  "environment_scope": "Scientific packages installed from requirements.txt. The local audit environment JSON is a separate environment record. Hosted Colab and browser interfaces not exercised."
+}
