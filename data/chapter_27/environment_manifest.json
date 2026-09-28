@@ -1,0 +1,8 @@
+{
+  "_comment": "Canonical environment for the distributed executed notebook. validate_artifact.py checks the running interpreter against this file rather than hard-coding version numbers. Python is checked at major.minor granularity (3.12) since patch-level differences do not change deterministic notebook output; numpy/pandas are checked exactly, matching requirements-lock.txt.",
+  "python_major_minor": "3.12",
+  "python_reference_full_version": "3.12.3",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.8"
+}

@@ -1,0 +1,6 @@
+scenario,sector,asset_type,observed_variable,communication_context,decision_or_service,outcome_metric,devices,sample_interval_s,bytes_per_record,retention_days
+research_greenhouse,Agriculture,greenhouse zone,air temperature and relative humidity,local network to campus service,review irrigation and ventilation conditions,time within experiment-specific environmental range,24,300,40,30
+museum_climate,Cultural heritage,gallery or archive room,temperature and relative humidity,local gateway to remote service,flag sustained environmental excursions,time within preservation target band,18,120,44,90
+shared_bike_fleet,Mobility,shared bicycle,location and device status,periodic wide-area uplink,prioritise redistribution or maintenance,availability of serviceable bicycles,800,300,56,30
+bridge_vibration,Infrastructure,bridge monitoring point,vibration features,local gateway to remote service,flag measurements for engineering review,fraction of expected monitoring windows received,12,1,80,7
+campus_occupancy,Buildings,teaching-space zone,occupancy indicator,local network to campus service,support space-use and ventilation review,fraction of scheduled periods with usable occupancy data,60,30,36,14

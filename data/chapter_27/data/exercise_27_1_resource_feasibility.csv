@@ -1,0 +1,31 @@
+application,board,flash_headroom_kib,ram_headroom_kib,radio_ok,static_feasible
+periodic sensing,Arduino Mega 2560,162.8,1.5999999999999996,True,True
+periodic sensing,Raspberry Pi Pico,1596.4,180.79999999999998,True,True
+periodic sensing,ESP32-C3,3234.8,276.0,True,True
+periodic sensing,ESP32-S3,6511.6,354.4,True,True
+periodic sensing,nRF52840,777.2,175.2,True,True
+periodic sensing,STM32L432KC,162.8,40.8,True,True
+BLE environmental logger,Arduino Mega 2560,34.80000000000001,-36.4,False,False
+BLE environmental logger,Raspberry Pi Pico,1468.4,142.79999999999998,False,False
+BLE environmental logger,ESP32-C3,3106.8,238.0,True,True
+BLE environmental logger,ESP32-S3,6383.6,316.4,True,True
+BLE environmental logger,nRF52840,649.2,137.2,True,True
+BLE environmental logger,STM32L432KC,34.80000000000001,2.799999999999997,False,False
+TLS telemetry node,Arduino Mega 2560,-215.2,-114.4,False,False
+TLS telemetry node,Raspberry Pi Pico,1218.4,64.79999999999998,False,False
+TLS telemetry node,ESP32-C3,2856.8,160.0,True,True
+TLS telemetry node,ESP32-S3,6133.6,238.39999999999998,True,True
+TLS telemetry node,nRF52840,399.20000000000005,59.19999999999999,False,False
+TLS telemetry node,STM32L432KC,-215.2,-75.2,False,False
+medium-scale LUT-compiled inference,Arduino Mega 2560,-25.19999999999999,-52.4,True,False
+medium-scale LUT-compiled inference,Raspberry Pi Pico,1408.4,126.79999999999998,True,True
+medium-scale LUT-compiled inference,ESP32-C3,3046.8,222.0,True,True
+medium-scale LUT-compiled inference,ESP32-S3,6323.6,300.4,True,True
+medium-scale LUT-compiled inference,nRF52840,589.2,121.19999999999999,True,True
+medium-scale LUT-compiled inference,STM32L432KC,-25.19999999999999,-13.200000000000003,True,False
+camera-class TinyML,Arduino Mega 2560,-1295.2,-334.4,False,False
+camera-class TinyML,Raspberry Pi Pico,138.4000000000001,-155.20000000000002,False,False
+camera-class TinyML,ESP32-C3,1776.8000000000002,-60.0,True,False
+camera-class TinyML,ESP32-S3,5053.6,18.399999999999977,True,True
+camera-class TinyML,nRF52840,-680.8,-160.8,False,False
+camera-class TinyML,STM32L432KC,-1295.2,-295.2,False,False

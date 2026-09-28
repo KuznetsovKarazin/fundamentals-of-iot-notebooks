@@ -1,0 +1,21 @@
+{
+  "artifact_hashes": {
+    "data": "25ffe6d630c02158bbb2bdb5900b174145f3791e48c5758962dd80ffcaa57b7f",
+    "source": "29a8d0823d86ba3e8472db2a0451b44afbc999583180e174cb74ff10609e9f8f",
+    "requirements": "a57b427d5f5144ef7f0bf6645cd28ee4d49c0f5f648178d051286d9a5f3ab705",
+    "baseline_config": "6eb6e0480b49c3ceb6ca9cf92f74efda06f8d3b96c04b628970c7fe20c437a30",
+    "modified_config": "1806ff8d8e500bf762b213fff16004af6fc2df8efc3f8c748ab3ebe8d72ded8a",
+    "baseline_scenario_summary": "c9afea4be2eb97382347d44945f4789d8420d5855e9cd340505b75e8081d0443",
+    "modified_scenario_summary": "c2dd4068abf4942c1cf0c60607580a664c688e083a6945d4e57b46bfa7ed1797"
+  },
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8"
+  },
+  "baseline_interval_multiplier": 1.0,
+  "modified_interval_multiplier": 5.0,
+  "rows": 5,
+  "deterministic_repeat_equal": true
+}

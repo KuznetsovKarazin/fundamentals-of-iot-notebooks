@@ -1,0 +1,3021 @@
+{
+  "title": "Fundamentals of the Internet of Things: dataset provenance",
+  "prepared_date": "2026-09-28",
+  "source_package": "Book_1_v7(2).zip",
+  "scope": "28 supplied companion notebooks and existing CSV/JSON educational datasets. No manuscript text, book figures, assessment keys, personal records, licensed research datasets or third-party raw logs.",
+  "source_note": "This is an audit of supplied source files, not a fresh independent verification of published third-party numerical constants.",
+  "reuse_note": "Follow companion repository license and third-party source attribution. This manifest does not grant new rights to outside datasets or publications.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "notebook": "notebooks/ch01-first-steps-python-colab.ipynb",
+      "original_source_path": "Chapter_01/ch01-first-steps-python-colab.ipynb",
+      "original_notebook_sha256": "e0e2facb401a30a72a4a33e8f0342fa1cd9af5d538090ac87d5f1a857024ce2c",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic 12-sample temperature stream, UTC telemetry table and threshold flags; seed 42.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 1.1 — Code cells, variables, lists, and a small function",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 1.2 — A synthetic temperature stream with NumPy",
+          "markdown_cell_index": 6
+        },
+        {
+          "heading": "Exercise 1.3 — Your first telemetry table and plot",
+          "markdown_cell_index": 9
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 7,
+          "declaration": "rng = np.random.default_rng(42)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "49ca0821a57701f802a27ff7b3b2a3f1dcaa190007de414d628a3b2af16a7636"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "c0fb7a27ed0c85c7387d783161432b35d00822b3e81a272dbce156690842a3e8"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "d75f0778b8ddbc816dec8fce8c0284e4782d5b12b88dd3091851b5353d23f5ba"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "f871834762c27a1832bd1edf5ae32629aded959255292f9197001ec1e8a469f3"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "9b06e3698df18d1371baf5ed56dd01a9cbddc22755629f9c85f3ece8a4fc0df9"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "e0e2facb401a30a72a4a33e8f0342fa1cd9af5d538090ac87d5f1a857024ce2c"
+    },
+    {
+      "chapter": 2,
+      "notebook": "notebooks/ch02-reproducible-python-project.ipynb",
+      "original_source_path": "Chapter_02/ch02-reproducible-python-project.ipynb",
+      "original_notebook_sha256": "a622250f9d3cbef7b8def81b20eec6f1e6b4f1d586306cc5c9e6efb3b40a20c2",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Five author-created IoT planning scenarios, configuration-driven record/payload estimates and modified-interval comparison; no deployment measurements.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 2.1 — Capture the Environment Before You Trust the Results",
+          "markdown_cell_index": 5
+        },
+        {
+          "heading": "Exercise 2.2 — Connect Use-Case Meaning to a Config-Driven Calculation",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 2.3 — Repeat, Record Provenance, and Then Modify",
+          "markdown_cell_index": 12
+        }
+      ],
+      "rng_declarations": [],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "04595910b76d1357daa6c010bde1227f0143f3e16c216a3ba94daf746f5af598"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "58a828bad78f42014ea959d6c222e3df940e17102122443e77c1b83ee8602bfd"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "7c3fcf4c55e5809ec093b029917f3927416c397a406738ff3d195a34ae8ceb8f"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "acfbcdb2535e0130abcd92e7237ac3eb94680816c8d00d37ead6a7988da9d2e3"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "0f90a50f91c6ff82978f9b9507f401265a6e98d680a286d3ed818006a0fd2771"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "1374ee785f368af578f915430fa91926e28224e3ce17c6c98d9bcc288dcccaea"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "90af246a52573901083e97792a2e9da5fe0d50151b866ccf0827037f811da422"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "a622250f9d3cbef7b8def81b20eec6f1e6b4f1d586306cc5c9e6efb3b40a20c2"
+    },
+    {
+      "chapter": 3,
+      "notebook": "notebooks/ch03-defining-iot-practice.ipynb",
+      "original_source_path": "Chapter_03/ch03-defining-iot-practice.ipynb",
+      "original_notebook_sha256": "78be3278a31f2cf05399bcdc52a9755f07597557f3f42e9b2da7a606c9305606",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic single-device daily telemetry, seeded incomplete fleet records, and an author-defined system-boundary classification matrix.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 3.1 — Your First Virtual IoT Device",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 3.2 — From One Device to an IoT Fleet",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 3.3 — “Is It IoT?” A Boundary-Aware IoT Classification Matrix",
+          "markdown_cell_index": 14
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 4,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "rng = np.random.default_rng(314)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "fc33fbe2edb9e1dcfd76ea02123d5f267d6321d710a047bc2671744be7bb6019"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "8c7d7e915965753dbf310fc46409d7f748e4404b4f161cb5ec516b5dcb6ead19"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "07f1b8b756dcb576f44b0c9a0f9dd50c7d335859cf4839678474e86dd6e50463"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "e794702450a6e1f42285817262b7e18064a7c1d99e9864d8d511a92d5f3e359c"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "d43fbba8aa7f6f3dc107521ac2f819e85a69220fa973096fa3bb887c583e9253"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "084b7fb9374a73e7cc273f315eb098eb331a0dd262ad6ef4c946e07b72081f6d"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "168e05c0a7b19117425539f9a24734986af1cd23b9ed58a55acc4932f449f62d"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "fa6366071f96da3d8ecdf60313987146eab8a3b207540c6a8b25f0a728e27c21"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "16ed66c26afb833a68189892183159f66d364674f78d7ebf670a2d4e45eabeb6"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "f6dae1580de732f944315efdf747303fbaadab14b5b42826f50168e1bafb04aa"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "e2826324cfae680b15e623bdc427f2a792043c9a6898fd02c85e6eed6036a813"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "d2d7636093cafb71e4d6af76406d49ef855cb73b936b26f47cdb6dd462c9ae8a"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "78be3278a31f2cf05399bcdc52a9755f07597557f3f42e9b2da7a606c9305606"
+    },
+    {
+      "chapter": 4,
+      "notebook": "notebooks/ch04-fundamental-iot-concepts-paradigms-practice.ipynb",
+      "original_source_path": "Chapter_04/ch04-fundamental-iot-concepts-paradigms-practice.ipynb",
+      "original_notebook_sha256": "36ec6e4ad0c2f2cfc27f4ef49945daad608cebfc74c1608dfcfd8a1159ba46e9",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic room context, simplified thermal-control responses, service availability/latency draws, and adaptive preference-policy scenarios.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 4.1 — Context-aware smart room: fixed schedule vs contextual policy",
+          "markdown_cell_index": 2
+        },
+        {
+          "heading": "Exercise 4.2 — Cyber-physical system: why delay belongs inside the model",
+          "markdown_cell_index": 6
+        },
+        {
+          "heading": "Exercise 4.3 — Internet of Services: composition, parallelism, and graceful degradation",
+          "markdown_cell_index": 10
+        },
+        {
+          "heading": "Exercise 4.4 — Ambient intelligence: adaptation is a multi-objective problem",
+          "markdown_cell_index": 14
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 11,
+          "declaration": "rng = np.random.default_rng(404)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 1,
+          "source_sha256": "8762cadc28ecff75091fe7b1f1d897a5e687414d9f8bc70821cd77fb0fdf3987"
+        },
+        {
+          "cell_index": 3,
+          "source_sha256": "993c39ab80fbea91392b3e348040998f56be296d9a79d6cf7004b26f77d6fb49"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "bd27fa216c06cb03f7c1a68476c5a2991894d49eaebefb8920b546552f525a39"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "1819f8e4a37e99336adfd7b54076bc96d4ac7e41764ced2d7422bd1bf39a70aa"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "d50bc0468a0191442fa91c5e7720ce1550a7b723bd3fbfd3e993438a0e11f70e"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "91db91577cc32c29647a7979fced3f6f90e1cf0d98a52239628ff6dd8a9fc346"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "41b9206996ab4eb4b7c5d3218f98add3fe41d11de34a2f46ccfbcbd3e7371cda"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "de0ddb71256c2121c8106862d528a32fae662582e27671579827259ce555e2ac"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "1bc8996bfd53fcc97be58392256a3773ff8a56ea593453c080ed4f9b6d2612c2"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "36ec6e4ad0c2f2cfc27f4ef49945daad608cebfc74c1608dfcfd8a1159ba46e9"
+    },
+    {
+      "chapter": 5,
+      "notebook": "notebooks/ch05-iot-device-technologies-practice.ipynb",
+      "original_source_path": "Chapter_05/ch05-iot-device-technologies-practice.ipynb",
+      "original_notebook_sha256": "8e9e33f2991e60b4e386af04b23b1c29213deef8578830512c56ae152cb01595",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Author-declared device state currents/durations; synthetic event arrivals and response delays; synthetic solar/cloud week and RTOS task workloads.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 5.1 — From a Device State Machine to a Battery-Life Estimate",
+          "markdown_cell_index": 2
+        },
+        {
+          "heading": "Exercise 5.2 — Polling versus Event-Driven Task Execution",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 5.3 — Solar Energy Harvesting and Energy-Neutral Operation",
+          "markdown_cell_index": 13
+        },
+        {
+          "heading": "Exercise 5.4 — Fixed-Priority Scheduling, Priority Inversion, and Response Time",
+          "markdown_cell_index": 18
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 9,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 10,
+          "declaration": "# modelled as separate quantities. Latency seed = 7."
+        },
+        {
+          "cell_index": 10,
+          "declaration": "rng_event = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 14,
+          "declaration": "rng = np.random.default_rng(2026)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 1,
+          "source_sha256": "ac3672437717a456d564edd20cd62b2abd358da8dde008b3685dd9687dc99e6f"
+        },
+        {
+          "cell_index": 3,
+          "source_sha256": "49807e99a1ed61f0e8eb8f37a734e73ffa8929fb814bea23d0af8c84b557c028"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "75b8bdc8c7a2487bae66c3c89836101733d7bf7edc7790247d4c7af33cd9c536"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "7b8600fb89b76e19948aad8e761f17380b34343337a579a6925399f64d2b1ad0"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "30784f514abe5a9bdac7661bc300888f5a1511d8f7d97fe515dcf22d02a7e949"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "3b40a1e3149422f5f96c7e57c500ac3ee1892b3ec496f1f9e09814da8604e954"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "b32810a2dd5f700333fe7a40cfd1ed0292d2939faf9966dd9c96f2aa51eba547"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "9c2f4eeace1b1f6053f8602bcb311383e659c3576ea1b45ee098f156339430f8"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "6f0bb9e5f56d0518bf6143540d80ef82da0e9cc1f230ebf06776ccb7271178b7"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "e532ca909746afd5dda091984b7efe488f387d91681b8cefee429b476d8923af"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "53266f0e2680a618e8e64b3dc06bba79064207242f6450669a45e2c26247acc2"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "18412aaa3f1250701a23534e7175a627398becad0dba108ea1119c2e6cf406cd"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "8e9e33f2991e60b4e386af04b23b1c29213deef8578830512c56ae152cb01595"
+    },
+    {
+      "chapter": 6,
+      "notebook": "notebooks/ch06-iot-gateways-edge-processing-practice.ipynb",
+      "original_source_path": "Chapter_06/ch06-iot-gateways-edge-processing-practice.ipynb",
+      "original_notebook_sha256": "ed33e5447b5e0415521971d3cfe2ba868ae6a1091ecbff6797a6083c9e91132a",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic protocol-register examples, mixed gateway workloads, sklearn-generated classification data and architectural WAN/outage assumptions; fault/failover simulations.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 6.1 — Version-Aware Protocol Translation and Canonical Telemetry",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 6.2 — Gateway Compute Sizing Under Mixed Edge Workloads",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 6.3 — A Simple Hybrid Edge–Cloud AI Policy",
+          "markdown_cell_index": 12
+        },
+        {
+          "heading": "Exercise 6.4 — Redundant Gateways and Common-Cause Failure",
+          "markdown_cell_index": 17
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 4,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "def simulate_gateway(rate, cores, duration=45, seed=123):"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "rng = np.random.default_rng(seed + int(rate) * 10 + cores)"
+        },
+        {
+          "cell_index": 14,
+          "declaration": "rng = np.random.default_rng(2026)"
+        },
+        {
+          "cell_index": 18,
+          "declaration": "def simulate_redundancy(days=14, dt=5, seed=2026,"
+        },
+        {
+          "cell_index": 18,
+          "declaration": "rng = np.random.default_rng(seed)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "aea7ac9bb7d4b01ff633dbd551ef81e53e72e5591f5ac95078d86fdbd95ff546"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "0d8c2c62b322dc97cac218da83c67bf616e284e819e73bd80461f19bac07d84e"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "344dc5b0fef9e8246439ad438a4441c80028912e7c8cc264f9d321ded9c7e0e5"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "4b4b9936f5e18da9edaa9d5d08e109bf8e246d711a807e0581c06c4d1ce9f145"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "50ae5527aa715fdb7330df911769526c3d779a7bf9b7fbf0acaa4e7ef672bcbd"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "6024701f77010525d62e6bc6c736011af1f0f6da445c7f42bef1894f96657ad9"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "ffd3e4c11b7d2c33f62f8bbaeaf88ddc16c7207184a585e13f3d90b03c5fe582"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "4166c6877aced66623ce3e8b71749b16e3cc6d295fd6ced51304e0d062b3708e"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "bd9720c94bb4bdabba859b6a6a47fec377b6df7743d9ea52eb6d9da8890a3b80"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "d7dd5de9e014f01d03fe901ec1f4ed5f4cee29c6d02bc41635454f81a473f7eb"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "5bc15815e889fd6c26f8b315b04991f95bfaf74985ff96c108aa91093551760b"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "ed33e5447b5e0415521971d3cfe2ba868ae6a1091ecbff6797a6083c9e91132a"
+    },
+    {
+      "chapter": 7,
+      "notebook": "notebooks/ch07-iot-platforms-practice.ipynb",
+      "original_source_path": "Chapter_07/ch07-iot-platforms-practice.ipynb",
+      "original_notebook_sha256": "92730ca7d0714b5c513b3508d500b768451e639f76a5d766518ece0b0751a5b0",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic bursty fleet arrivals, connectivity/desire-state events, matched OTA campaign scenarios, and multi-tenant workloads.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 7.1 — Downstream Telemetry Processing Under Bursty Fleet Load",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 7.2 — Persistent Desired State for Intermittently Connected Devices",
+          "markdown_cell_index": 7
+        },
+        {
+          "heading": "Exercise 7.3 — Staged OTA Rollout and Blast-Radius Control",
+          "markdown_cell_index": 11
+        },
+        {
+          "heading": "Exercise 7.4 — Multi-Tenant Isolation and Work-Conserving Scheduling",
+          "markdown_cell_index": 15
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 4,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 8,
+          "declaration": "rng = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 12,
+          "declaration": "rng_campaign = np.random.default_rng(123)"
+        },
+        {
+          "cell_index": 12,
+          "declaration": "rng_bb = np.random.default_rng(1001)"
+        },
+        {
+          "cell_index": 12,
+          "declaration": "rng_st = np.random.default_rng(1002)"
+        },
+        {
+          "cell_index": 16,
+          "declaration": "rng = np.random.default_rng(99)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "b8383daebd01f1d8e7c836ae89b2a068a0c221aacbaec4fb80e0f0103b5ec772"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "b3d3b87ad83eb714346065bf2f5c53726379c82399dd26bb61783627fa2a66e9"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "5c094a03e18bb9fe5a313bf8932bbdcbe1daee181ec62bcec04b5c2f5c6abcdb"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "cd8929f8ea1e524a518f7df13b19617eafb4f7f12498caf1078629021170cca4"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "613f6653ad0b25c525c995948391aafcdcfc41280128d1016a0ca712786fc1aa"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "7348df382b6aa6784b77670d11f62903fcca8d739c728ef452954fc602102e3f"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "24317f6a5e138ad62805c9e176c7fe7a7e605ffab0f18c8483187b9e3074085d"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "71aee965ec256eaf4af46631ea73f5c55cfd25169c2f213593239c803b6dbbea"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "7804889573fddf0106fc164058b03c475d51f18750896f65d9ed5c1bd4cbbd95"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "92730ca7d0714b5c513b3508d500b768451e639f76a5d766518ece0b0751a5b0"
+    },
+    {
+      "chapter": 8,
+      "notebook": "notebooks/ch08-iot-impact-industry-society-practice.ipynb",
+      "original_source_path": "Chapter_08/ch08-iot-impact-industry-society-practice.ipynb",
+      "original_notebook_sha256": "c52c8a5d88f439c387cda6103e81a9ad6e001433cf13a5e1f94b63655b3b5b56",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic waste generation/routes, manufacturing faults, street-light usage and physiological-score monitoring. The physiological score has no clinical interpretation.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 8.1 — Smart Waste Collection: Fixed Schedule vs. Fill-Aware Dispatch",
+          "markdown_cell_index": 2
+        },
+        {
+          "heading": "Exercise 8.2 — Smart Manufacturing: Separating Sampling Frequency from Decision Logic",
+          "markdown_cell_index": 6
+        },
+        {
+          "heading": "Exercise 8.3 — Adaptive Street Lighting: Energy Savings vs. Service Quality",
+          "markdown_cell_index": 10
+        },
+        {
+          "heading": "Exercise 8.4 — Remote Patient Monitoring: Separating Observation Frequency from Alarm Logic",
+          "markdown_cell_index": 14
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 3,
+          "declaration": "def generate_waste_scenario(seed=8, n_bins=48, days=21):"
+        },
+        {
+          "cell_index": 3,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 3,
+          "declaration": "waste_scenario = generate_waste_scenario(seed=8)"
+        },
+        {
+          "cell_index": 7,
+          "declaration": "def generate_manufacturing_scenario(seed=18, days=30, dt_min=10, rate=100):"
+        },
+        {
+          "cell_index": 7,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 7,
+          "declaration": "mfg_scenario = generate_manufacturing_scenario(seed=18)"
+        },
+        {
+          "cell_index": 11,
+          "declaration": "seed=23, n_lamps=300, days=7, dt_h=0.25, power_w=80,"
+        },
+        {
+          "cell_index": 11,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 11,
+          "declaration": "lighting_summary = simulate_lighting(seed=23)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "seed=31, n_days=1000, interval_min=10,"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "rpm_X, rpm_time, rpm_events, rpm_start = generate_remote_monitoring(seed=31)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 1,
+          "source_sha256": "cfff8b94e604ce7efc5fe7391698029c2cd45f18410fa9acfb9586e108c8b9e5"
+        },
+        {
+          "cell_index": 3,
+          "source_sha256": "6a4bc2e4d8b41a3fb7da13e9859218eeb9d9f3dbaf9a7f200e2fd283078df6c4"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "afa20cfe175b49a129021b082e1b61b0ab244085734da7643114b525afdab635"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "81a5523d6a606196b1243be3c712bb4fbddaad180a1d00a9ba750998c424f982"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "e5738a4f1c2363319702cb7daa14f75ca55d70497360e0e1c7d28d453ea7d4cd"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "e9a8c5407c9d0227c44f38d5e6da009eaa0863860c97535c4ebddb4b793ebea6"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "3ab0c2b24b127e0a9d64d68de37304ee883f637d111a6563bd5e44a14348aaed"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "3dad8a3a986df90e17df5bf0ee7096f1a675c2cc251c0eb2139d59e45d04ad0e"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "28e6458a3def9f4fc300cd0f8b6e7f28642cc7b533c5247701ca79fb971088f6"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "c52c8a5d88f439c387cda6103e81a9ad6e001433cf13a5e1f94b63655b3b5b56"
+    },
+    {
+      "chapter": 9,
+      "notebook": "notebooks/ch09-fundamentals-sensor-technology-practice.ipynb",
+      "original_source_path": "Chapter_09/ch09-fundamentals-sensor-technology-practice.ipynb",
+      "original_notebook_sha256": "2efe77894e4a93197234d262faae1fdd37f07376292709bc929155eb78a15423",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Simulated measurement chains, transfer characteristics, step/frequency responses, and noisy samples for bias/precision/resolution/sensitivity analysis.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 9.1 — Accuracy, precision, and resolution are different properties",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 9.2 — Static transfer characteristic: sensitivity, nonlinearity, and hysteresis",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 9.3 — Dynamic response: time constant and bandwidth",
+          "markdown_cell_index": 19
+        },
+        {
+          "heading": "Exercise 9.4 — Sensitivity, noise floor, and minimum detectable change",
+          "markdown_cell_index": 24
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(42)   # the only random-number source used in this notebook"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "3475c4702f8b93b171b02376be6a20650db34a359d8fb13ce418bb7283aa12ca"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "a7215413079385cf9c3c776cc6e2bdfbfd4507fc68ba7c26e23f26a7f0d7e57a"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "8af6703be9c78a6af61f3f0e37a43381746c931322241dd91476c5b7c556f693"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "c01b298618674c6fdda69bbab79431e238448ad568cb7f3e926adb49ee442b21"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "e5d69af36a9b41b25628c3a81295b0f8afe112a8db627c17b68cd47d6b2d1fcf"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "c8b173a1d4524ee41ed9c3958e2a17df491e77e4d486b109b3eb5b2110d3fbb5"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "00abd4f2808bad93980fc0f1c67f516f830a485280d67f83fd5901c6b8728391"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "1960486991782351b908c73346ceb1de245fdf988017b3624191902ec9337879"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "3092a960b5aa379d8b4fb1823fe0ec98ab99eae497a34172a73cc9ad632c5e91"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "8bc1be772405468e1c35c13e83525f4e5a77cbe4703b95e42aff63663bea20e6"
+        },
+        {
+          "cell_index": 25,
+          "source_sha256": "944ae391875b5c2a905f11d032406bd46b99fa57db5b4a45504c14ba61058cff"
+        },
+        {
+          "cell_index": 26,
+          "source_sha256": "2c3efe443c6c47013a43023de3619e0ce560737ffd74750e155350d087c3b28f"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "2efe77894e4a93197234d262faae1fdd37f07376292709bc929155eb78a15423"
+    },
+    {
+      "chapter": 10,
+      "notebook": "notebooks/ch10-common-iot-sensors-practice.ipynb",
+      "original_source_path": "Chapter_10/Ch10_Common_IoT_Sensors_Practice.ipynb",
+      "original_notebook_sha256": "d63521c27ef0c6775770b8b3a335bab12d586a6495d3ebab3e3e5e9499cdcba7",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Simulated temperature networks, environmental temperature/pressure, inertial sensor fusion signals, and humidity-sensor behaviour.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 10.1 — Temperature Sensor Network with Data Fusion",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 10.2 — Environmental Monitoring: Temperature and Pressure",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 10.3 — MEMS IMU Simulation: Accelerometer–Gyroscope Fusion",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 10.4 — Humidity Sensor Comparison: Capacitive vs. Resistive",
+          "markdown_cell_index": 19
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 10,
+          "declaration": "np.random.seed(7)   # separate seed for this exercise"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 20,
+          "declaration": "np.random.seed(99)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "f6065e83f02098f0cb1ebc61d36a54d93f6de35486925fd53dfc2c481470d260"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "575ce86eb3736a8520a98f7930b482d100557efe04fc5be76a8aa359eb71467d"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "74f585e2be98c9a46123cb81d0494b12151b49f757265de727c754f435bac9df"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "e01a18e52833f15405143abb33ae4ba507f3046d31a9b228b44a9cd8e2c6496d"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "5dcbadb8616375d47a00ff5285f69bf7f99b716135f9347d5cae1ad6d5b4de08"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "9b00c8998b22a0d952c8438c4f810b61725caee77318b481a8956ac05e5bb3b3"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "3891297365ab95e5404d91048a548d562816585a20a3b02d0881b8652a0fc98f"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "7c7bb9211619357601db9330d52d883c04d3d75333501be75c879645ee6ae55c"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "b1c1a26246f01fc6a11c4f8f1516e3b37fe21afbabebac402c7ce6c9deeec4c5"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "68f4f5d751488651f705c265b5a281f774755091b3462fa9c73442bde6fe08a6"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "c088c645da20da69f8dc92e8e6ca99e4b9dddda1dcf45bd67061f83ed9c16b6f"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "57e58b74b02182d7e522487b0562290f2dfb632169966d4d4273aabf6107b949"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "c53fbece2dfd0c1279566d78edf5d5860c5a4ea35a7a7c7edc1b7991f35f98eb"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "d63521c27ef0c6775770b8b3a335bab12d586a6495d3ebab3e3e5e9499cdcba7"
+    },
+    {
+      "chapter": 11,
+      "notebook": "notebooks/ch11-advanced-sensor-technologies-practice.ipynb",
+      "original_source_path": "Chapter_11/ch11-advanced-sensor-technologies-practice.ipynb",
+      "original_notebook_sha256": "1230787df4f9c7ebbfe60263cd9e9908cbb2e874f094b6e6416a42df4a2f44d3",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic spectra and mixtures, gas-sensor calibration/cross-sensitivity, synthetic biometric genuine/impostor scores and simulated environmental events; no personal biometric records.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 11.1 — Optical Spectroscopic Sensor: Substance Identification",
+          "markdown_cell_index": 2
+        },
+        {
+          "heading": "Exercise 11.2 — Chemical Gas Sensor: MOS Calibration and Cross-Sensitivity",
+          "markdown_cell_index": 11
+        },
+        {
+          "heading": "Exercise 11.3 — Multimodal Biometric Authentication: Score-Level Fusion and ROC/EER Analysis",
+          "markdown_cell_index": 17
+        },
+        {
+          "heading": "Exercise 11.4 — Multi-Parameter Environmental Monitoring: Sensor Fusion and Edge-Computed Event Detection",
+          "markdown_cell_index": 24
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 6,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 8,
+          "declaration": "mix_rng = np.random.default_rng(123)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "demo_rng = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 12,
+          "declaration": "rng = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 18,
+          "declaration": "rng = np.random.default_rng(15)"
+        },
+        {
+          "cell_index": 21,
+          "declaration": "rng = rng or np.random.default_rng(0)"
+        },
+        {
+          "cell_index": 21,
+          "declaration": "rng_boot = np.random.default_rng(123)"
+        },
+        {
+          "cell_index": 26,
+          "declaration": "rng = np.random.default_rng(seed)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 1,
+          "source_sha256": "5b71595da4b9543230fe91e067b227473d51c3b18a7239c2956d83e0bb2bbb5d"
+        },
+        {
+          "cell_index": 3,
+          "source_sha256": "e757e48ed8f41b770c841b17d973011b5d3468c47127e77e724ae050d5a92996"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "983a2c02c5793841fce9c5eaf888cd1a26481ed6e979256c1b6811344582b9bb"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "ac546de806c018cc196a141a0dd6245d465fcdde54a4c09bb8b4f90ad7da2bb3"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "4015de0f648584a586f95bea4dbcc40e4838b6559f25f6fac78cb4b6289c9054"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "4ecc6cefafd24b79aeeee4b461c7e9a16c46a80a31cc5a3591368cb40b176c1b"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "56e6f996d806998a8bbb6cbf752e0718789ae40a02def4eaf1e0ec7e114556a2"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "20e12be955e6264c8d5db26e2df9b895e1b33028b8666db78604ccbf5a649f17"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "1ff55195091d36a8e63cb172d5319cbfadaf282a16d68497d241a849d63160bc"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "2b47f29137d9c32df1ad01d2c51d5efb0d00e63fe5b5e6b5a1e9cec22dd9da67"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "3d676b144f0c1e57c50e4350bf3114719f2c5028e2b1e1a590f87157c5059680"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "9d02dd5849c3b079259d8f86a42d76e7cf19cb40d98530f9c4c5fc7300f91b2e"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "baa0909d74db15330ae997a02604e1baf2fcd5edcea51e1bf19a8b8fdd2954bc"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "a775a0983fe81200fd9d9ca2c4748f2891bd71f5a7c2bc724148e2a20564315a"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "d51cf5e185a30b17019bacf217dbe30f9de17218d160f2a0e56efda777a76670"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "9816df4ae93af9de593f6d9f18e6bccea68f4b2898f1b7293f24e7c68c4e1e7e"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "549ad8a617a06b3d7c7fe6f3183b30da83b26ffb0cf82fc827ea3af45c381a4c"
+        },
+        {
+          "cell_index": 25,
+          "source_sha256": "b16afd3f8e572bd87c6b59d75c8330a5eaec02a861c4229a37a2a12b0a39bc5f"
+        },
+        {
+          "cell_index": 26,
+          "source_sha256": "f24f3d0e6a22fdb651e28be5860b219e0f75b6c2e79ea0813dc5098f65d24e51"
+        },
+        {
+          "cell_index": 28,
+          "source_sha256": "347ba267296c253e88387b0a2e88c6bbaa8875e2371337d41c6e306fae621348"
+        },
+        {
+          "cell_index": 30,
+          "source_sha256": "65b28231d353de260e6c51a863a3d142ab563c912d8e7a122e5fd60bf72450e2"
+        },
+        {
+          "cell_index": 31,
+          "source_sha256": "85c5081beb1746e8637d13d510bcddf1fc37a372d0b2897e57a74ed3e8bfc435"
+        },
+        {
+          "cell_index": 32,
+          "source_sha256": "427399044a2afea07086b948b34e25155d8f3f6558c49c2eb7fe56d6c9c2c1b6"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "1230787df4f9c7ebbfe60263cd9e9908cbb2e874f094b6e6416a42df4a2f44d3"
+    },
+    {
+      "chapter": 12,
+      "notebook": "notebooks/ch12-actuators-control-practice.ipynb",
+      "original_source_path": "Chapter_12/ch12-actuators-control-practice.ipynb",
+      "original_notebook_sha256": "6eec6081f00b586f908c8f3dcd0144c2a93776b0f29351f694ffce17b5cfc306",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Numerical solenoid/motor/control/actuator models and generated state trajectories; mostly deterministic ODE/discrete simulations.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 12.1 — Electromagnetic Solenoid Actuator: Coupled Electrical–Mechanical Dynamics",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 12.2 — PWM-Driven DC Motor: Duty-Cycle Speed Control and Current Ripple",
+          "markdown_cell_index": 7
+        },
+        {
+          "heading": "Exercise 12.3 — Open-Loop vs. Closed-Loop PID Position Control",
+          "markdown_cell_index": 11
+        },
+        {
+          "heading": "Exercise 12.4 — Piezoelectric vs. Shape-Memory-Alloy Actuators: Response-Time and Hysteresis Trade-offs",
+          "markdown_cell_index": 15
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)  # most experiments below are deterministic ODEs/discrete"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "ac5db843ee79a9da9735d1f378c401a4537f8616f56ca87f41a7c43cebfd2e06"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "d69eca1158037cbb3d1c2df6db0d1791aff159c046e597d323fadd1880dd3770"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "1e8775bb397cd1526aef652ec79b720a6ed8b1c536224e020a2e1b8ca4db2188"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "eda1f2d7e8a45458cdb1fa50b5fa0fa1e0afbd4a30b5d8206b481208e5d0e697"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "335e83d2b4dc538c878014e5c342f44ee6948db6ab18eb06bdefea1142c6b551"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "51b5590cb77e3fd03a24eff1f6e286b26d4e335197595f23b931010f66c2e533"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "6a4a4699dd9f82590b92097ab9b5aa5974e3905d89c21027c689cc8a1d2ca93e"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "ad11cafa06591843246972850e736ae18daaca2547cb629af1039e345bae6f42"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "49b1397f605a70ea91f06e0b31af6728178243dfffca3430c73961058f7c7149"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "6eec6081f00b586f908c8f3dcd0144c2a93776b0f29351f694ffce17b5cfc306"
+    },
+    {
+      "chapter": 13,
+      "notebook": "notebooks/ch13-data-acquisition-practice.ipynb",
+      "original_source_path": "Chapter_13/ch13-data-acquisition-practice.ipynb",
+      "original_notebook_sha256": "94463ff841a3b42db2d3a55f242610b39a358a6ceb3152fc33dce8b51ea78565",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Constructed sampled signals, quantization and anti-aliasing models, plus seeded clock-jitter Monte Carlo trials.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 13.1 -- Sampling and the Nyquist-Shannon Theorem",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 13.2 -- Quantization Error and Signal-to-Quantization-Noise Ratio",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 13.3 -- Anti-Aliasing Filtering: Protecting the ADC from Out-of-Band Interference",
+          "markdown_cell_index": 13
+        },
+        {
+          "heading": "Exercise 13.4 -- Clock Jitter and the Effective Number of Bits (ENOB)",
+          "markdown_cell_index": 18
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 20,
+          "declaration": "rng = np.random.default_rng(42)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "d408b95261c41ba837f91395f90366f8578cdb37c60410d11db6450540fc40b4"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "3e7bf87a8f3b6fc099301a607d42a0c4215ead2d47b486e8acd915e2231bec72"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "d9a70bffa6a459a501e35b663e65b940bdb5967e863fbe08bf7b9508e008ea80"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "f6a2cb72f17a1385cf37dea1ea686492b3e3a30038c1618cd10c5fbc45ccd84b"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "306f53187b9c939f086a82c989bdca4f7ee0d1720b02b89a93b8e2364394e658"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "690b4b90bb08195bfb549af1406b84b2896c6de852324146d6f2a621f8eb6470"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "e1c00913c565d357854dbc2bddf6ac87e6781682b1d3ff73d8228a47eeff5f81"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "e4198eee07614103381eff34da3aa9e26a033c22e31691ab1802000c535ffa99"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "a98ef1db902f19c51b2744a2201b137fd84c04f4da037fbde89ed8a9b1d7e498"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "c7a080f17fa0a17909ca8074889214ba7af4fee08f8493e5a7828653283a28df"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "f312f67cb5329511e7b1f466b381a5d0122f58568ec89fa29344a235e2364c7f"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "c18227d50190a73c474cf8ce7dbefdf613526a8d6c76128eb1502aaa6c9b7629"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "94463ff841a3b42db2d3a55f242610b39a358a6ceb3152fc33dce8b51ea78565"
+    },
+    {
+      "chapter": 14,
+      "notebook": "notebooks/ch14-onboard-data-processing-practice.ipynb",
+      "original_source_path": "Chapter_14/ch14-onboard-data-processing-practice.ipynb",
+      "original_notebook_sha256": "853ceea8783991eac9074548e8603ab8875f1141c11095c09fae3634bc85087d",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Shared synthetic sensor signals for filtering, injected transient outliers, compression and feature-extraction windows.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 14.1 — Denoising a Slowly Varying Sensor Signal",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 14.2 — Specification-Driven IIR Low-Pass Design: Butterworth vs. Chebyshev",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 14.3 — Detecting Transient Outliers On-Board",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 14.4 — Reducing What Gets Transmitted: Compression and Feature Extraction",
+          "markdown_cell_index": 20
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "def generate_signal_a(seed=42):"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "def generate_signal_b(seed=7, duration=3.0, a2=1.0):"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 4,
+          "declaration": "t_a, raw_a, target_a, sigma_n = generate_signal_a(seed=42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "t_b, raw_b, clean_vib = generate_signal_b(seed=7, duration=3.0)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "rng_o = np.random.default_rng(123)"
+        },
+        {
+          "cell_index": 23,
+          "declaration": "t_win, healthy, _    = generate_signal_b(seed=1, duration=1.0, a2=1.0)"
+        },
+        {
+          "cell_index": 23,
+          "declaration": "_,     developing, _ = generate_signal_b(seed=2, duration=1.0, a2=1.8)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "bc0d4ab07668799ffc4baa3ec3b7a28c99f81cf15ad424e4b6694027dfbf2b18"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "92684b3143d3bf1ede4f20aaf2c4fff13f26eb81d720c3331446d2903985151c"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "a432e1345e3222be54c3f46cdb8262f36665d76fb26167b42dd7931503fc283c"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "1476448c44f9641f2ae1836dab830a9f043150b1b8cf72b434c72e9998b5f4ad"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "8562c7806c332502c9434b63cf9ff571b91b7b3aeb25d8fa73f5f1c86bb7b637"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "baeec3570da928a2c29747a8dfe4a86f3e8b464535b2232ca1a7bdbebebda3f0"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "58e402f660f42bf31364c8861d0b247229e9b81f40ac348536bfdd8a6f311334"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "dea5b6646cc54a250e951a7c7c9fde033479fefb84af197316011122802b60d6"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "55602b8e736cd548fb045d88139a9d8b322a94ef6442d79dd250dfbc879be64e"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "92fd00c7860ba6c4e5bc8caa1e8cf64fbb617097d3217ebd95af243e1e404ce1"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "f7126be2c6a4a5525b11dc760d3e80e5de7c5099134e86769ae0189170a3e113"
+        },
+        {
+          "cell_index": 24,
+          "source_sha256": "82d9c07fe2c247bda7b3d5f3323b311e8baaa9a3c57647db0ea7e1394c7c6007"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "853ceea8783991eac9074548e8603ab8875f1141c11095c09fae3634bc85087d"
+    },
+    {
+      "chapter": 15,
+      "notebook": "notebooks/ch15-sensor-actuator-integration-practice.ipynb",
+      "original_source_path": "Chapter_15/ch15-sensor-actuator-integration-practice.ipynb",
+      "original_notebook_sha256": "1f257039f2480df4994e4fac2ed19c3e790b4922a50a164e1cc3dc884e55b5ea",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Computed I2C/SPI/UART timing and transaction sequences, simulated bus failures/retries and clock/synchronisation traces.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 15.1 — I2C Bus Timing and Multi-Device Addressing",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 15.2 — SPI Full-Duplex Transfers and Bus Throughput",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 15.3 — A Bus-Agnostic Sensor Driver: Hardware Abstraction and Retry Logic",
+          "markdown_cell_index": 13
+        },
+        {
+          "heading": "Exercise 15.4 — Multi-Sensor Timestamp Synchronisation Across I2C, SPI, and UART",
+          "markdown_cell_index": 18
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 4,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "np.random.seed(7)"
+        },
+        {
+          "cell_index": 14,
+          "declaration": "np.random.seed(15)"
+        },
+        {
+          "cell_index": 19,
+          "declaration": "np.random.seed(2026)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "91a34c12b7338b3d317e26141e23f986e225bae10f4f9047adf1a27916625524"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "c6c7aab81273839668156692855316fadd656a6600caaf8b29c7b635757f1ce0"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "68ca8b09926b9747e6f42367800ea2daf0edc00b1b11c9aeb18041e4fc136cba"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "3768a1a24392c12f2d8e0d42754b75b7e2ccf6dac3d410ea293e8510f1d8353d"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "e6e1b198e57fc28fafd4637c927d7bfdabf522d9491a244f2be80f16b1fcf50e"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "97a1c191ce965b527667300d566f1437ab78fa2611ffe369759af198a53d0dc0"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "1b2b875fdb4d1d433b373e716b1bb12e3782ea001102e7fe3311dd07bc97645b"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "c2db26da6c82d31ed4f6ea901de93f0d82a5b8ed15503bb73dcbafb9e35d8929"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "837fd6c64c275ab2e1a13bb08bfdbdc78de337c8cb0f7b480e21b5cee13a9f5a"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "5488757d84285bd382f50a251c369e3d957e3cb1793a0ed04cc4102d3902a45c"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "5f8d473894cc1ff5525aeb9dc903cea2f24578abd03c7166a12843ce762f7141"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "128110546973769a23450e2f458c05461e56f9c63f80007a62a8b9a425d14475"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "a17f45b284cdbee693dc4be061691a2048ce55c6fafbf24373ac92d4b15dda61"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "1f257039f2480df4994e4fac2ed19c3e790b4922a50a164e1cc3dc884e55b5ea"
+    },
+    {
+      "chapter": 16,
+      "notebook": "notebooks/ch16-sensor-calibration-maintenance-practice.ipynb",
+      "original_source_path": "Chapter_16/ch16-sensor-calibration-maintenance-practice.ipynb",
+      "original_notebook_sha256": "eb2bb160d889db367a41ecce131037fcec2e1f58e69564c13b61ae26c4b9de7b",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic calibration points, drift/fault simulations and vibration-degradation trajectories; fitted prediction and bootstrap analyses operate on those generated data.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 16.1 — Multi-Point Calibration of a Load-Cell Weight Sensor",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 16.2 — Sensor Drift and the Cost-Optimal Recalibration Interval",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 16.3 — Remote Fleet Calibration and Collaborative Fault Detection",
+          "markdown_cell_index": 12
+        },
+        {
+          "heading": "Exercise 16.4 — Vibration-Based Predictive Maintenance and Remaining Useful Life",
+          "markdown_cell_index": 16
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 4,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "np.random.seed(7)"
+        },
+        {
+          "cell_index": 13,
+          "declaration": "np.random.seed(2026)"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "tt, sig = simulate_snapshot(w, seed=1000 + w)"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "rms_samples = [np.sqrt(np.mean(simulate_snapshot(w, seed=500_000 + 97 * w + r)[1] ** 2))"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "rng_boot = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "_, sig_w = simulate_snapshot(w, seed=1000 + w)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "7ab64a11f27009b7400bc5509ae5fe35a32ec499a89cf4f4ac700d698dc70011"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "e48b48cf6556f0c38907b56e7cacb751449bbd5ba86d2ce2a19b36f2dfbaa2e7"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "29f79cfac7821650096166befe9a24557d8af098140ee99554c410264a8e3d11"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "b7bf2e3cd9cf43f7197218efe26518eb3cd4e8f658b4363bbc3a4661753b5c16"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "13d8b9e31e8486c8e80022e1d644ac5839096f9751696d5e84120a610fe23114"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "94e51b871b18864cc32d95b8d8a37f17378745fada76672d6d62a7d7cfc4ebc4"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "6bfbecbc72ac55152e69e33c59f8b9a75a48e8422e5bb1ea4c71bcf77dfd4c2c"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "5066aa707edc983ad98c9444acc8830f97571a5c7318bc093f100406a3d96c73"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "9c1749db3634fe73d2762493770fb43b23ac82fbae9ae5d930b1e4416ad121fe"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "608d022cc3a767f3caea6e9ae9661bbc5b2f48a943dde1890d5189cd48bde77d"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "eb2bb160d889db367a41ecce131037fcec2e1f58e69564c13b61ae26c4b9de7b"
+    },
+    {
+      "chapter": 17,
+      "notebook": "notebooks/ch17-wireless-overview-practice.ipynb",
+      "original_source_path": "Chapter_17/ch17-wireless-overview-practice.ipynb",
+      "original_notebook_sha256": "f2532c6cc850d146dac8a842f15afd4ada4c3e9fb3f865c23452addf3b1e643a",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Illustrative technology range/rate/power intervals and calculated representative points; path-loss, capacity and energy model curves. These are not measured product benchmarks.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 17.1: Mapping the IoT Wireless Landscape",
+          "markdown_cell_index": 4
+        },
+        {
+          "heading": "Exercise 17.2: Free-Space Path Loss and the Physics of Range",
+          "markdown_cell_index": 10
+        },
+        {
+          "heading": "Exercise 17.3: Bandwidth, Noise, and the Shannon Capacity Limit",
+          "markdown_cell_index": 16
+        },
+        {
+          "heading": "Exercise 17.4: Radio Energy Budgets and the Sleep-Current Break-Even",
+          "markdown_cell_index": 22
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "567d4e621b7d569a68112e99a5151e280ec8df286712b50dfd012e0ca70bc321"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "97b4d54c86f8097e6eb88a62e546234bec5bcff3a70796ee62e09db605fc9f3b"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "0aa6105a072661464ce554c3b4c21f41b51461f378a4cf507e63012c7b9e4ca0"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "72af5a689affdfda7bbdab4c753d239157cea478027cf13b9633d40ebd338a31"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "4bca863bcaa2638ecc744ead6772db14935a04c0cce30c5843a2c727edfbc6e1"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "125e119d483a356a6a85d9a25f7f6f22ab46b0bd5a159946f535b3ad118f9225"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "36da40a34db03e21cd9af3228062f31d3e3dc7ce32c7bfb6c39202545aa37945"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "61b118829ba0f1218f316bde8da7376047f0f934b094d18f96896af67146cafd"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "119247cbbc51ddb4eb30f2e5429b4b3b6a6f3e0e23156edd70971a58eefd0896"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "fb4825b26ceb7fa921dbc8136bb85d49d2f8a503f653819de443f495b01fc701"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "9297aa325f11b8f13be31119501280e5c20e75c4a739b0b0cfc1162ee9bcaf0a"
+        },
+        {
+          "cell_index": 24,
+          "source_sha256": "1e4f9dd7f8506a3da1715b86bdf829dd04bf7380547a023eeeb90c5e925e00b6"
+        },
+        {
+          "cell_index": 25,
+          "source_sha256": "8c959a54e496a2e8c3bbb9b7f0f6cfb5b2444f497355e4937ea532c42448632f"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "f2532c6cc850d146dac8a842f15afd4ada4c3e9fb3f865c23452addf3b1e643a"
+    },
+    {
+      "chapter": 18,
+      "notebook": "notebooks/ch18-wifi-bluetooth-practice.ipynb",
+      "original_source_path": "Chapter_18/ch18-wifi-bluetooth-practice.ipynb",
+      "original_notebook_sha256": "04a6a591dc9995538b43602d5b7910d76da705684490a052d6c880dfbe434306",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Modelled Wi-Fi link adaptation/CSMA and BLE connection/channel scenarios; seeded contention/interference Monte Carlo checks.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 18.1 — Wi-Fi Link Adaptation: From Received Power to Data Rate",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 18.2 — CSMA/CA Contention: Saturation Throughput and the Cost of Sharing a Channel",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 18.3 — BLE Connection Parameters: Balancing Power, Latency, and Throughput",
+          "markdown_cell_index": 12
+        },
+        {
+          "heading": "Exercise 18.4 — Bluetooth Channel Selection and Wi-Fi Coexistence in the 2.4 GHz Band",
+          "markdown_cell_index": 16
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 4,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 5,
+          "declaration": "rng_mc = np.random.default_rng(123)"
+        },
+        {
+          "cell_index": 17,
+          "declaration": "rng = np.random.default_rng(7)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "a3d27fb39f2714ae3cae270c567809102819d43509298fe4f79daeff4ddd7167"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "3ce55f862eed616866e2e6f7d256050aa22ab63fd468444fbba7d23bd4f7a8e1"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "e013f3e341138ef5f0c9f9cd8e5afdacc6973b91c15e84030a48584d4502a113"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "2808926ee22e397552ae1718d6f1999bbf8eb67caa498f1f81a395de04afebe4"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "bf5aa8aafb947e116949779dd228b16e3c743fc98f352790d0a40e5699f337db"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "c6e39f33f6165130ff3bff17f0dcf4c1ae49392a616c3cec972f6c6f53dd2ad0"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "78d4689629fb962709deb119c3b4c0776103d599c7ced72e165b0b7c01c2368f"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "9d3c8500f02c4b0762eecd085cac677a878e063084b248b76ba40ab23012d09c"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "749537069054e65c59905fc651e145306b064e8c48e27d16a7019196165d1dec"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "897530edcdf8b5170e478238001ece9a1179dd26e1d4e90445a791002eb9b3fb"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "04a6a591dc9995538b43602d5b7910d76da705684490a052d6c880dfbe434306"
+    },
+    {
+      "chapter": 19,
+      "notebook": "notebooks/ch19-mesh-networks-practice.ipynb",
+      "original_source_path": "Chapter_19/ch19-mesh-networks-practice.ipynb",
+      "original_notebook_sha256": "245cf789082270b97b63b9718ad1e905053bd45309470e1c07e8747861c1eb29",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Synthetic mesh topology/link metrics, routing/hop analyses, failure/reselection Monte Carlo scenarios and technology comparison models.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 19.1: mesh backbone generation and routing",
+          "code_cell_index": 4,
+          "note": "Section identified from executable cell comments; original notebook separators have no Markdown exercise headings."
+        },
+        {
+          "heading": "Exercise 19.2: Thread Leader election, REED promotion, propagation",
+          "code_cell_index": 9,
+          "note": "Section identified from executable cell comments; original notebook separators have no Markdown exercise headings."
+        },
+        {
+          "heading": "Exercise 19.3: self-healing with End-Device parent reselection",
+          "code_cell_index": 14,
+          "note": "Section identified from executable cell comments; original notebook separators have no Markdown exercise headings."
+        },
+        {
+          "heading": "Exercise 19.4: battery life and relay-load accounting",
+          "code_cell_index": 18,
+          "note": "Section identified from executable cell comments; original notebook separators have no Markdown exercise headings."
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(np.random.SeedSequence([seed, min(i, j), max(i, j)]))"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(seed)"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "def generate_network(n_routers=27, n_enddevices=38, width_m=400, height_m=300, seed=42):"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(s + 1)"
+        },
+        {
+          "cell_index": 4,
+          "declaration": "width_m=400, height_m=300, seed=42)"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "rng = np.random.default_rng(77)"
+        },
+        {
+          "cell_index": 14,
+          "declaration": "rng = np.random.default_rng(np.random.SeedSequence([555, ci, int(round(f*1000)), trial]))"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "5e6ef9174d1d889f8c36902d1d996efbeef86d069adba8c601827d3748c84db4"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "b57fb25e027d3fa199b7b89d3547a9080e5f9290e52f812c3fc528091f71f94f"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "545f7a086dd652563770232d1a9143db14aaa9302d9b7cd8c83aef91f4794d8d"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "bddf83bfa1e20b766791232ae717e7baafe9522a7d042bd5cdbcff2a072968c8"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "2d18a1d83f130132727b3eb3865dcdcb68b256ea644664996ef4c3758ff08033"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "7adb65ca870bc8b9ccbf62f5f642a72de2ad10d9a2b96f92abd4c473495b2005"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "dce43cbdb515804cb2b62e2a2197369ab42b75a04b284ba22baef93312e5ddd3"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "5e5c14402b52f7f7eff0bdb09821774a91b6a106232e859666b9799fd7ed8176"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "57ca5219381978e7fb248866ff0f86f16c1f70bcb4a929fdd12d63764ca18a3e"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "14cf5bdedf5b919e56824266886c3a2d3f205c791a3fba96462f57d11315b35a"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "3ae4b80daf9a2b17e13430f4399bdd6a6a216df825d3a42b05b51e5e78bdf14d"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "d31eb3c6c667df02940ba918e38c352336a0f8ae34729a3db7b4fc04c9437562"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "72c2511682af07af64b0735129cec0993e6b75007313703c67def4fee791b65d"
+    },
+    {
+      "chapter": 20,
+      "notebook": "notebooks/ch20-lpwan-practice.ipynb",
+      "original_source_path": "Chapter_20/ch20-lpwan-practice.ipynb",
+      "original_notebook_sha256": "731aa2c7d713a26a76736d5d85b2d3270396ec776c2afecb8529f5bc0572b552",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Modelled LoRaWAN/Sigfox propagation, airtime, traffic/energy and independent-transmission reliability; generated Monte Carlo validation samples.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 20.1 — LoRaWAN Link Budget and Coverage Analysis",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 20.2 — Spreading Factor and the Range–Data-Rate Trade-off",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 20.3 — LoRaWAN vs. Sigfox: Network Traffic and Energy Budget",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 20.4 — Message Reliability via Frequency Diversity",
+          "markdown_cell_index": 20
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 7,
+          "declaration": "rng = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "np.random.seed(7)"
+        },
+        {
+          "cell_index": 21,
+          "declaration": "rng = np.random.default_rng(99)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "57efb2b9cdeea0c9968fcc2c961e397c13e64777509f6b838d8847399093b24a"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "a887aa43e4b66ab1406e326784e0ae21b79a20e80bbdd5c44272a59936324df9"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "7b8ea325006398ea685133269cd0354c56e7c8e11f2a63d43db50efa01fd17c7"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "26d297c197a9f377875f6b74fe4b193af56f73db1e4c51aea10be640d07989ce"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "f084a54845dc2d7dea4d22d96b4c7508efb30b754a91647a5c3a6a476f6ddb80"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "968e005456b1d58e970a3477e29d691358dc88febcbc08a4615ea522939a9717"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "b35a37df91fc92b6cd3f48577ebf07aad9c9eae633051cb1ff0fb31d7b2cc6fe"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "d1d4a22e8bde8fa72fa676babad277dddf49f928e244a2b68e02c9c4e1462ab3"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "9a50aad61edc886240e0aacc6e95e7f5021fe837012b0e558dac56f554f9b75a"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "af5a8126eae4331b1a21fe937a226c1da7d5ff3b3e115890d360597bf1a54f3e"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "15c9dc7aab26b21d8b24c0f3129a6044e5732c4e3574c48c2c6c30addec28d68"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "24dd684c75ea181df13bbd958b4646b8fd8b2dbcbd3499589b8777a610d38e29"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "7547c968a06b4b7da23abe84aaad2b12d51e048c98fe263c8246469a82566f59"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "8f8d3c0329bcd24e46d326d615c7f23aef5568669a93ed94926502ce0dbac9ba"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "a0e41304c7ae1b9951f9b660bd9afa193c362d877d1df2192fc1cb1c48326fff"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "731aa2c7d713a26a76736d5d85b2d3270396ec776c2afecb8529f5bc0572b552"
+    },
+    {
+      "chapter": 21,
+      "notebook": "notebooks/ch21-cellular-iot-practice.ipynb",
+      "original_source_path": "Chapter_21/ch21-cellular-iot-practice.ipynb",
+      "original_notebook_sha256": "155fb493f84146cc22b88d87b6087f4be5f788933f38393e1ed98617ebeea7e8",
+      "data_status": "mixed: published measured constants, published reference parameters, derived models and synthetic simulation",
+      "summary": "Published NB-IoT measured energy constants and source-attributed planning parameters embedded in code, followed by derived battery/link/rate curves and synthetic NPRACH collision trials. No source raw measurement dataset is redistributed.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 21.1 -- Coupling-Loss Budget and Coverage-Enhancement Levels",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 21.2 -- Repetition, Data Rate, and the Idealised-vs-Published Combining Gap",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 21.3 -- Battery Life from Published NB-IoT Energy Measurements",
+          "markdown_cell_index": 12
+        },
+        {
+          "heading": "Exercise 21.4 -- NPRACH Random-Access Collision Probability",
+          "markdown_cell_index": 17
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = rng if rng is not None else np.random.default_rng()"
+        },
+        {
+          "cell_index": 18,
+          "declaration": "rng = np.random.default_rng(2024)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "9cf6835e06b8b631656845b4f7f26331f3995e7c9729ef4059b593e7bb4fa5e3"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "3e6db052b6eeae5fde53705a0c60c73e444fdebddae83e46a136d2c37c63dcda"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "3172fd45ec69fd3b84903a8994b56e43dcfedc334055ac3e7eaf0d88772024d1"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "4325f587965b8ec91564f4993fbb34c70ca27f54e7aff3e61eef204f0a557f59"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "0d21202dee6319d6d707e04bc94f7b51cb16d63fa56cbe059e824900bb6766e9"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "4ed026824688a437315a160bda48251cd2edfbe523e14036e56a179cbcb8ef8f"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "18914194d1d155f3ad46ac55a853b5cfb322ae6e02d5dc77c9e8c0afaf28a5f3"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "03e5526dbe9806d9cf92174cd5cde041e34f09ffcf7a7e7bb3b3102c61db33d1"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "7703aee209fff6a906503668be0f8d603ed4040b6a18f58e83c7cec3c7a89ad5"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "388f46916f36bcc30590788628cc282472bd31fe5acfc479c2350058ae7a441c"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "b348794463f6702d0e66c7eea74766e7959f647d24b69ba88a262bdeb0ba8642"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "19ed0fd7844939f5f83165c3ea61c1699426b250b22b44e3a0eee9e24be4fba8"
+    },
+    {
+      "chapter": 22,
+      "notebook": "notebooks/ch22-mqtt-practice.ipynb",
+      "original_source_path": "Chapter_22/ch22-mqtt-practice.ipynb",
+      "original_notebook_sha256": "1c95611fe57c2c48c4453b437beea92852788c31e9c47b35561b0e245ccebca1",
+      "data_status": "mixed: synthetic/constructed teaching data and local software microbenchmark results",
+      "summary": "Constructed MQTT packet/topic/subscription data, simulated loss/QoS and offline-session arrivals; local topic-trie versus naive-scan timing is a software microbenchmark and varies by environment.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 22.1 — MQTT Packet Overhead and Fleet-Scale Bandwidth Cost",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 22.2 — QoS Delivery Reliability under Connection Loss",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 22.3 — Subscription-Matching Scalability: Topic Trie vs. Naive Scan",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 22.4 — Session Persistence, Keep Alive, and the Will Message",
+          "markdown_cell_index": 19
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "np.random.seed(42)"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "random.seed(42)"
+        },
+        {
+          "cell_index": 11,
+          "declaration": "rng = np.random.default_rng(int(q*1e6) + 1)"
+        },
+        {
+          "cell_index": 20,
+          "declaration": "rng = np.random.default_rng(2026)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "27e1b834bfad299230f2809b493330eefb07767719416ffb3b010bc292f1c22b"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "ddafcff532ec173ee0e395a99e0806965b4321b00ba439472251766e0f010d26"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "bbd8b7c35e414617dd5903ba2b5bfdd8f7c9eb94f51476b5b97970cd1e805eee"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "736c8ed373c540c4cf6cee93ba2fdcc10e1d8d1f299f368407e9d3a40aeb513a"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "c6e6e5b26535cd7f76f87937acf6668a23476056eabe972f8c976751796ebb4f"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "46ebcb9e1702fcbba0f02c1718b0d40c193183a2f825c6175cca4783e1b97b4b"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "730835ecf0f3aa68792e2b3df782459239d6877610457f06eb4d48526d5122e2"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "d205bd0ad9b9a9b283fb2a5e44b45ab42dcddcef8c193de81d8c620298e7ac44"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "eb2c7c77a5a22766fd44f399e1fa9f814faad5119a78dfcf11693c1b34de58d3"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "6d58f79b0514db8cc624fc3f0f7b59d302bc81ad40e85d52dba67b6ca47ece11"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "41cb45938d397fb770e64b792ffb0dd55ac1ac4ceb148dd96e15fd27903d7e98"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "b51cb93b812f58cea258fbae6a9090dd935bf28f0ffc6959561e885bfb32aac2"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "74964c10aef6b1730c42be50c317328df07453cb035d61a407f77d8f310f6a6a"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "1c95611fe57c2c48c4453b437beea92852788c31e9c47b35561b0e245ccebca1"
+    },
+    {
+      "chapter": 23,
+      "notebook": "notebooks/ch23-wired-industrial-practice.ipynb",
+      "original_source_path": "Chapter_23/ch23-wired-industrial-practice.ipynb",
+      "original_notebook_sha256": "22573fe5bde5f2cf04bc370dfd5dddccba575e8e286ece608464211ba4061ca0",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Constructed industrial protocol frames and synthetic change/queueing/loss scenarios; illustrative installation and decision parameters.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 23.1 — Modbus RTU vs. Modbus TCP: Frame Overhead Across Protocol-Stack Levels, and Serial Polling-Cycle Time",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 23.2 — OPC UA vs. Modbus: Semantic Overhead and the Report-by-Exception Advantage",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 23.3 — EtherNet/IP vs. PROFINET RT/IRT: Cyclic-I/O Queueing Delay and Determinism",
+          "markdown_cell_index": 14
+        },
+        {
+          "heading": "Exercise 23.4 — Wired vs. Wireless for Industrial IoT: A Quantitative Decision Framework",
+          "markdown_cell_index": 21
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 11,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "rng3 = np.random.default_rng(7)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "cc6521ece5837e5057c49c97f6226ed70f31a8e01b423ecddf5b82e5312fef78"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "fa1a418f658cdbfb5b0f591eed99b880d90dcfa778daa1b04f6d1395673a7bab"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "7ad0f7ff62225e27411899a5b89adecd0672115b47e4e34d9d666355b2480d23"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "4a369af111311dc40ab8fe617178e4a87372adb672a52e660a8c7f3d5bffaa32"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "b4be023dc1b68fb9721bf673194c5a311b248be98b68b80cf3af4fb8e0002017"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "f1a31fe018f32000f14df2fe9a2d344f4460707c4ab6d95edbfcd8207d9f1613"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "b8c49eb9175e031cc868d8f920a221ebf919520a9eb83379ffb57377b2e935cd"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "e42c5dee5b4c4468f76af1f55c264dfd596921c3570136a99596d756c1b67d32"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "a37a0f699279b07d11255f02ac21ed2013d2e09423e1448ed7d32742e530c38e"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "33bc5e0452e29a38883e26c64b48ad74173490716d5be36242fb8371f97595b2"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "b12144ff32a0b4a42b3dfb1cfdf25ac34e14c4348746b7328dcb3c966a8d8fd1"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "1ebe5eac3d2e2f556fd359e07201d44dd5fed2b96913534b8b74162ce8055097"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "ec032a4d56d4e1eb76bf9eeab8eb2a1c3f3f95c2d483ced955b05ab00b05b0b4"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "9f15bb9406603e378f513ff8cd210c4bf9e9d7342bb0c212539b2a1f2f0f1a8d"
+        },
+        {
+          "cell_index": 24,
+          "source_sha256": "7080705309687e8f9e55ce0db3a92f81beb1781965f836f4e501dc99ccf6d379"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "22573fe5bde5f2cf04bc370dfd5dddccba575e8e286ece608464211ba4061ca0"
+    },
+    {
+      "chapter": 24,
+      "notebook": "notebooks/ch24-coap-practice.ipynb",
+      "original_source_path": "Chapter_24/ch24-coap-practice.ipynb",
+      "original_notebook_sha256": "46a0d9ebd37985a50fb0d23da4ece1363ee375482188fcccedf626ae4244c04a",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Constructed CoAP/HTTP framing plus seeded exchange-loss, Observe lifecycle and blockwise-transfer simulations.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 24.1 — CoAP vs. HTTP: Framing Overhead Across Protocol-Stack Levels",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 24.2 — Confirmable vs. Non-confirmable Messaging: an Apples-to-Apples Comparison",
+          "markdown_cell_index": 7
+        },
+        {
+          "heading": "Exercise 24.3 — Observe: a Full Lifecycle Model",
+          "markdown_cell_index": 11
+        },
+        {
+          "heading": "Exercise 24.4 — Blockwise Transfer: Reliability and Time Under a Lossy Link",
+          "markdown_cell_index": 17
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 8,
+          "declaration": "cs, ctx, cl = simulate_exchange(p, \"CON\", 60000, np.random.default_rng(int(p*1000)+7))"
+        },
+        {
+          "cell_index": 8,
+          "declaration": "ns, ntx, nl = simulate_exchange(p, \"NON\", 60000, np.random.default_rng(int(p*1000)+8))"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "cs, ctx, cl = simulate_exchange(p, \"CON\", 25000, np.random.default_rng(int(p*10000)+3))"
+        },
+        {
+          "cell_index": 9,
+          "declaration": "ns, ntx, nl = simulate_exchange(p, \"NON\", 25000, np.random.default_rng(int(p*10000)+4))"
+        },
+        {
+          "cell_index": 13,
+          "declaration": "rng = np.random.default_rng(42)"
+        },
+        {
+          "cell_index": 15,
+          "declaration": "rng = np.random.default_rng(7)"
+        },
+        {
+          "cell_index": 19,
+          "declaration": "succ, tb, tt, nb = simulate_transfer(PAYLOAD, bs, p, N_TRIALS, np.random.default_rng(bs*13+int(p*1000)+1))"
+        },
+        {
+          "cell_index": 19,
+          "declaration": "succ, tb, tt, nb = simulate_transfer(PAYLOAD, bs, p, 7000, np.random.default_rng(int(bs*5+p*3000)+11))"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "6fb52928c1f091f107428c2c52a3b89c72d354628d46a785734d3935e3199c75"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "db1913bc5d6dde438f90f7ad416b319bee55b86ed2a2bbb9617a171cddb95724"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "a6b88f46ea889ea10715c2a643776e467902abd7c18f77d5bf9cb9d365378178"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "99d3360c1f93d2d1f545ed1bdbd3e2adfcb151d6fbef7dac8ecd03e0430096f1"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "56740d26a1abe23bccf463b875bc53111c728eb24c5d00c9b38a34c641879545"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "69a0ece2895a0b650ea2f002859a130143ae3ea7c507212893e468f4e1c0d590"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "f9d68d02b15bc1d7d63551d3293a82d4e21d6248ab10ef67d865842c5d535a8f"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "b812824a3974e85ab78193f3846fe11465b9b2ad09d3253e0ce0dc11f9b8da90"
+        },
+        {
+          "cell_index": 15,
+          "source_sha256": "ef9bbf7d97218eeb1e438b807387aff656dbeb3a25b08f049c1626f3b37ae6c3"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "af9af94fb498fe462e575a3e72367cc1c628e1e6d7fd964b0bf807ec9d54c1a6"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "e72dbb45f0027d78e773d86bd0bb251acfbc48d80ae6493fd40602de72bf4e87"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "46a0d9ebd37985a50fb0d23da4ece1363ee375482188fcccedf626ae4244c04a"
+    },
+    {
+      "chapter": 25,
+      "notebook": "notebooks/ch25-http-rest-webhooks-practice.ipynb",
+      "original_source_path": "Chapter_25/ch25-http-rest-webhooks-practice.ipynb",
+      "original_notebook_sha256": "ba3950fe9bd5c78398a195e2588b9cf9399151eaaa91b5d07133c5127794a3a4",
+      "data_status": "mixed: synthetic/constructed teaching data and local software microbenchmark results",
+      "summary": "Synthetic telemetry entropy scenarios and event traces; real local serialization/HMAC/JWT computations and timing, plus modelled network setup/RTT/rate-limit/webhook behaviour. Ephemeral token values may vary by run.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 25.1 — Serialization Format Efficiency: JSON, XML, and CBOR",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 25.2 — Real-Time Update Strategies: Polling, Long Polling, SSE, and Webhooks",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 25.3 — Authentication Overhead and Token-Bucket Rate Limiting",
+          "markdown_cell_index": 16
+        },
+        {
+          "heading": "Exercise 25.4 — Webhook Delivery Reliability, Retries, and Fan-Out at Scale",
+          "markdown_cell_index": 23
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 5,
+          "declaration": "rng_local = np.random.default_rng(42)   # same seed each scenario -> reproducible"
+        },
+        {
+          "cell_index": 10,
+          "declaration": "rng = np.random.default_rng(2025)"
+        },
+        {
+          "cell_index": 20,
+          "declaration": "rng3 = np.random.default_rng(2027)   # dedicated generator, independent of other exercises"
+        },
+        {
+          "cell_index": 25,
+          "declaration": "rng4 = np.random.default_rng(2026)"
+        },
+        {
+          "cell_index": 26,
+          "declaration": "rng_herd = np.random.default_rng(99)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "59d9cd72128e452260b5183a3c519902102eed1d925db28d479296d8c5e7a14b"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "f2d2bdfcad60b7beb0831cf31fc52b058ba1c8ba6ba45406db710386146fbb22"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "051719ca337e21b4a38e59276d7c292b7ed481eceea991c348b1d4c04799606a"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "f9c743a11bb893d449ddad6b8d4105d2ed942e75865db508688a10d3153f6d93"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "d1a7a71a71b021b896addf6462d3a08cdd64dae6596c027288aad9d1e35e0c1b"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "1f9c53fb3053caf5ce545871c800d5ac36c6055752aed86b3955429866795010"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "104b78e894be2ce436f8d757ad8728e3e800080c7cfa13a842732b376e463b55"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "6b08c00667eac183f8c0b6f4202d37d5ca9d22687f53c23274dc69d254387e4c"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "06512777acec31ce52c9478a0191da45328f9bdaf4046c6a5d623ec389ddc658"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "6ea0118f7381680854587da07d5c1ac9770a2adfa9cc2d44812d97462b540806"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "06b989af5dac0299afa53540366d9cab987a61ed20069d7ea237768fb816a031"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "990f5d3a0e73fc9c06a5300d33dc544efdfb895ddba21d677db65ce73ced13eb"
+        },
+        {
+          "cell_index": 19,
+          "source_sha256": "ab3135ccdd32219ade5474a3b177d763b02eddc7f6088902cd1161a587e6448e"
+        },
+        {
+          "cell_index": 20,
+          "source_sha256": "28103218366a3f79e886f0d6b2df2729eedd372edcefd77f313db53a1a399738"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "48cd65ea2a505af9e2fa8c1dc579f888e25e899712363cc67fd56fe527caa164"
+        },
+        {
+          "cell_index": 24,
+          "source_sha256": "ed9f17fa1cef9b96c5cae12225cd2f4585b38c6322f54ebc0708d1d6f3f4da89"
+        },
+        {
+          "cell_index": 25,
+          "source_sha256": "38746131cd4f777086ac269d34a5a357bdbc65a1891379524cdded3789efa65b"
+        },
+        {
+          "cell_index": 26,
+          "source_sha256": "f9b293af190b0d57032cd0ec4e162b161959685c57772436ed6a2911765dc909"
+        },
+        {
+          "cell_index": 27,
+          "source_sha256": "7ee0f1ad134e540c1391006c6c9d030e7edccd66e675240d4c93f3d4f5c2f6cd"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "ba3950fe9bd5c78398a195e2588b9cf9399151eaaa91b5d07133c5127794a3a4"
+    },
+    {
+      "chapter": 26,
+      "notebook": "notebooks/ch26-protocol-selection-guide-practice.ipynb",
+      "original_source_path": "Chapter_26/ch26-protocol-selection-guide-practice.ipynb",
+      "original_notebook_sha256": "4988ce50f8d3013823455f2b392406225e5ac1deefaa822d301a2e960ff38f96",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Author-selected technology/stack/catalogue scores, constraints, energy/cost parameters and uncertain preference draws; teaching assumptions, not vendor benchmark constants.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 26.1 — Hard Constraints Before Scores: Building a Layer-Aware Shortlist",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 26.2 — Robust MCDA: When the “Best” Protocol Depends on Uncertain Weights",
+          "markdown_cell_index": 9
+        },
+        {
+          "heading": "Exercise 26.3 — End-to-End Stack Benchmark: Bytes, Energy, Latency, and Cost",
+          "markdown_cell_index": 15
+        },
+        {
+          "heading": "Exercise 26.4 — Hybrid Fleet Optimisation: Why One Protocol Is Often Not Enough",
+          "markdown_cell_index": 20
+        }
+      ],
+      "rng_declarations": [
+        {
+          "cell_index": 2,
+          "declaration": "SEED = 26"
+        },
+        {
+          "cell_index": 2,
+          "declaration": "rng = np.random.default_rng(SEED)"
+        },
+        {
+          "cell_index": 10,
+          "declaration": "mcda_rng = np.random.default_rng(SEED)"
+        },
+        {
+          "cell_index": 11,
+          "declaration": "sweep_rng = np.random.default_rng(SEED)"
+        }
+      ],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "cf71fa51cea7b19ab0d312ac468e2bfa83498966fa8b86fee0ae4e11d94aa472"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "17fb4e3bdf43e55ef247bdeaffc423f9e195b7934273f041676d327f14a27f13"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "8e3a3733f1657e9214036c58459a3cfb23e045105093665103ab08b362569c14"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "114e8f3fe7058cbd85edb5c168bab77b9b9c0004ddf69b330cd881bae3a71af7"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "2f9750969c96d3b316e2b07b44cfa2ffe9b0ebed3a6c156ff7811f303d3a9d51"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "23be8e1e9311a1d78dadd0db1486add587e43046c026272349c2ee9cfa3c1f65"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "8a351315aee70a3dac6599d67a427571a730d60908fb1860f95f299f205dd1a5"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "061a4438341567d103f87bd276c02f35f96361576323fe4d0cbc6d71e46b96fe"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "7e0a26072f8362fa20471531a194ef469e2d21974e3f494e8dc47c2b1fcca346"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "ab382a697665921a1c6b5620451d929cccd9e8a30220df16ca560f024f03851c"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "551c1c58b5be60b41a7391149c1796acb905289bb95fcd3735604f0a7cb081ca"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "4988ce50f8d3013823455f2b392406225e5ac1deefaa822d301a2e960ff38f96"
+    },
+    {
+      "chapter": 27,
+      "notebook": "notebooks/ch27-microcontroller-programming-deployment-practice.ipynb",
+      "original_source_path": "Chapter_27/ch27-microcontroller-programming-deployment-practice.ipynb",
+      "original_notebook_sha256": "54fab8880e43056ffdcd98d404acd89fba4192ecc898f86b58fe501bf62979c5",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Deterministic resource-screen, job-scheduler and quantized-LUT tables. Exercise 27.3 paired speedups are explicitly pedagogical synthetic values constrained by published error bounds, not raw simulator or hardware observations.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 27.1 - Board Selection, Headroom, and Duty-Cycle Energy",
+          "markdown_cell_index": 4
+        },
+        {
+          "heading": "Exercise 27.2 - Job-Level Timing Analysis",
+          "markdown_cell_index": 10
+        },
+        {
+          "heading": "Exercise 27.3 - Agreement Analysis with a Transparent Pedagogical Dataset",
+          "markdown_cell_index": 15
+        },
+        {
+          "heading": "Exercise 27.4 - Quantized LUT Compilation and Pareto Analysis",
+          "markdown_cell_index": 20
+        }
+      ],
+      "rng_declarations": [],
+      "code_cells": [
+        {
+          "cell_index": 1,
+          "source_sha256": "8d27137ccba1da4ae0081aa8645712f609e3f4f9e3944ac574d5a65e83aa8387"
+        },
+        {
+          "cell_index": 3,
+          "source_sha256": "57d8b9f1f3b4ac858af04eb3978accbd36e49d9cf5046623a86d1a6bcdbc5732"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "0ee5e03fc9be692c7386baff4d33685167efaca27ee371c8c3cbba11a50e8a5f"
+        },
+        {
+          "cell_index": 7,
+          "source_sha256": "b3c2ccacb5391e8d1d00ababa62342f014fa30281f91a6a837b0ce3ae0dc3e41"
+        },
+        {
+          "cell_index": 8,
+          "source_sha256": "ba8ef92c7737a11a6cd9d3573c21406af6a7c82adb1436ee9e4f07f8fa786876"
+        },
+        {
+          "cell_index": 11,
+          "source_sha256": "afd528160c3291581e6d8267f955c9ef0c69a9054db743e84a24e64a4ea9c874"
+        },
+        {
+          "cell_index": 12,
+          "source_sha256": "8893e86c234313fb25514e73dafdf1ed63909d6af1cfadeaaf0de83f082a352e"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "f7c4e12e29d9069a692c5ac7511c525f640f82255703152bd8166dffbe4810a0"
+        },
+        {
+          "cell_index": 16,
+          "source_sha256": "7f9c4dc1480aeb0ea0f89b26a919a97952a2de79520301461d3df25b7d94bdd1"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "bce93d32c16bcb3164a842d9cdf520eb8e52ba6114d3f0d4dc4dab5c74ecac5d"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "56c3f78d287791bf653b6bd7c83d32e7ad9a5e27cf7f623a4d7ea638e276854d"
+        },
+        {
+          "cell_index": 21,
+          "source_sha256": "a31eaea838cfad58c2928c9b5a56edb3f82395c2d9ac34d93d8ef0a7642c220e"
+        },
+        {
+          "cell_index": 22,
+          "source_sha256": "c15603df833f2a90ee899ba1122963f19f5fa390ac7ec0a4000f9289d72c4b06"
+        },
+        {
+          "cell_index": 23,
+          "source_sha256": "3eb1abdcb4c834452ae1829fdd0c00ca523dd790198b6c2a38a6b1ebe8e9c174"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "54fab8880e43056ffdcd98d404acd89fba4192ecc898f86b58fe501bf62979c5"
+    },
+    {
+      "chapter": 28,
+      "notebook": "notebooks/ch28-project-planning-practice.ipynb",
+      "original_source_path": "Chapter_28/ch28-project-planning-practice.ipynb",
+      "original_notebook_sha256": "e172997221865f91d696571a7af44b796a7b2d48538154037ff44ff25df94fab",
+      "data_status": "author-created synthetic data and/or deterministic pedagogical model",
+      "summary": "Author-created capstone project catalogue with illustrative 1-5 scores, experiment budgets, milestones and readiness values; planning estimates, not research results.",
+      "data_delivery": "Embedded/generatable in companion notebook; supplemental files included where already present in source archive.",
+      "exercises": [
+        {
+          "heading": "Exercise 28.1 — Choose a project track, then apply hard constraints before ranking",
+          "markdown_cell_index": 3
+        },
+        {
+          "heading": "Exercise 28.2 — Convert claims into an experimental budget",
+          "markdown_cell_index": 8
+        },
+        {
+          "heading": "Exercise 28.3 — Build a dependency-aware milestone plan",
+          "markdown_cell_index": 12
+        },
+        {
+          "heading": "Exercise 28.4 — Research-extension gap analysis",
+          "markdown_cell_index": 16
+        }
+      ],
+      "rng_declarations": [],
+      "code_cells": [
+        {
+          "cell_index": 2,
+          "source_sha256": "46a330cada811547f6c176ac18e1428c78a2cd9e70c763da4be4dfa41d557aec"
+        },
+        {
+          "cell_index": 4,
+          "source_sha256": "82a0d07f02974c50e13049d35acb43dc21fc88fbedcbe9599d999742175a3e69"
+        },
+        {
+          "cell_index": 5,
+          "source_sha256": "b21a2f1c76ef82ced1c0746f3603f296ffaa7bd48dd2a3a07c618de5eb74f246"
+        },
+        {
+          "cell_index": 6,
+          "source_sha256": "62ed419808a77f69f7a27de25db71abff58ea9de916d66a28d4dc875c3b1a31d"
+        },
+        {
+          "cell_index": 9,
+          "source_sha256": "64beca6ad384084ae1f9b01ee716b819c822676a16720118f0074b8768b93613"
+        },
+        {
+          "cell_index": 10,
+          "source_sha256": "b69ac2d0b98d186c24f7711dc697d1494f3baf7a58f3fdc34b91d5135be0f38b"
+        },
+        {
+          "cell_index": 13,
+          "source_sha256": "dd8027eddba413141bb69c4df4329c313a0234450df0c55ca1e995c7162d2982"
+        },
+        {
+          "cell_index": 14,
+          "source_sha256": "47b7c5e81072c5decafc6661db021db935bff012a5541243af8a3fbf70afc7de"
+        },
+        {
+          "cell_index": 17,
+          "source_sha256": "4f1ee96df5dc6a932c33d7416bd60cfb2266668b0058215d2bd6fb42b2fe5c6c"
+        },
+        {
+          "cell_index": 18,
+          "source_sha256": "184ec6b5d3603306be80921c6beded52da514130dff220ad19c4730212d78f23"
+        }
+      ],
+      "external_dataset_download_required_for_core_exercises": false,
+      "repository_notebook_sha256": "e172997221865f91d696571a7af44b796a7b2d48538154037ff44ff25df94fab"
+    }
+  ],
+  "packaged_files": [
+    {
+      "path": "chapter_02/data/iot_project_scenarios.csv",
+      "source": "Chapter_02/data/iot_project_scenarios.csv",
+      "bytes": 1204,
+      "sha256": "25ffe6d630c02158bbb2bdb5900b174145f3791e48c5758962dd80ffcaa57b7f",
+      "status": "author-created synthetic teaching input",
+      "rows": 5,
+      "columns": [
+        "scenario",
+        "sector",
+        "asset_type",
+        "observed_variable",
+        "communication_context",
+        "decision_or_service",
+        "outcome_metric",
+        "devices",
+        "sample_interval_s",
+        "bytes_per_record",
+        "retention_days"
+      ]
+    },
+    {
+      "path": "chapter_02/config/project_config.json",
+      "source": "Chapter_02/config/project_config.json",
+      "bytes": 217,
+      "sha256": "6eb6e0480b49c3ceb6ca9cf92f74efda06f8d3b96c04b628970c7fe20c437a30",
+      "status": "author-created synthetic teaching input",
+      "top_level_keys": [
+        "selected_scenario",
+        "interval_multiplier",
+        "output_directory",
+        "note"
+      ]
+    },
+    {
+      "path": "chapter_02/outputs/scenario_summary.csv",
+      "source": "Chapter_02/outputs/scenario_summary.csv",
+      "bytes": 1527,
+      "sha256": "c9afea4be2eb97382347d44945f4789d8420d5855e9cd340505b75e8081d0443",
+      "status": "archived derived teaching output or provenance/configuration; original environment snapshot, not current audit run",
+      "rows": 5,
+      "columns": [
+        "scenario",
+        "sector",
+        "asset_type",
+        "observed_variable",
+        "communication_context",
+        "decision_or_service",
+        "outcome_metric",
+        "devices",
+        "sample_interval_s",
+        "bytes_per_record",
+        "retention_days",
+        "effective_interval_s",
+        "expected_records_per_day",
+        "uncompressed_payload_mb_per_day",
+        "retained_uncompressed_payload_gb"
+      ]
+    },
+    {
+      "path": "chapter_02/outputs/modified_scenario_summary.csv",
+      "source": "Chapter_02/outputs/modified_scenario_summary.csv",
+      "bytes": 1525,
+      "sha256": "c2dd4068abf4942c1cf0c60607580a664c688e083a6945d4e57b46bfa7ed1797",
+      "status": "archived derived teaching output or provenance/configuration; original environment snapshot, not current audit run",
+      "rows": 5,
+      "columns": [
+        "scenario",
+        "sector",
+        "asset_type",
+        "observed_variable",
+        "communication_context",
+        "decision_or_service",
+        "outcome_metric",
+        "devices",
+        "sample_interval_s",
+        "bytes_per_record",
+        "retention_days",
+        "effective_interval_s",
+        "expected_records_per_day",
+        "uncompressed_payload_mb_per_day",
+        "retained_uncompressed_payload_gb"
+      ]
+    },
+    {
+      "path": "chapter_02/outputs/modified_config.json",
+      "source": "Chapter_02/outputs/modified_config.json",
+      "bytes": 308,
+      "sha256": "1806ff8d8e500bf762b213fff16004af6fc2df8efc3f8c748ab3ebe8d72ded8a",
+      "status": "archived derived teaching output or provenance/configuration; original environment snapshot, not current audit run",
+      "top_level_keys": [
+        "selected_scenario",
+        "interval_multiplier",
+        "output_directory",
+        "note",
+        "run_note"
+      ]
+    },
+    {
+      "path": "chapter_02/outputs/environment_manifest.json",
+      "source": "Chapter_02/outputs/environment_manifest.json",
+      "bytes": 477,
+      "sha256": "e42094efa726b3420fbaa718310842a7453cd9380910a4a6a774ec1e715b9a88",
+      "status": "archived derived teaching output or provenance/configuration; original environment snapshot, not current audit run",
+      "top_level_keys": [
+        "python",
+        "packages",
+        "requirements_satisfied"
+      ]
+    },
+    {
+      "path": "chapter_02/outputs/comparison_manifest.json",
+      "source": "Chapter_02/outputs/comparison_manifest.json",
+      "bytes": 907,
+      "sha256": "f71cad750a280b6e42f4260c324603be1f3e6069755485d66d383a9e1fc9daf7",
+      "status": "archived derived teaching output or provenance/configuration; original environment snapshot, not current audit run",
+      "top_level_keys": [
+        "artifact_hashes",
+        "python",
+        "packages",
+        "baseline_interval_multiplier",
+        "modified_interval_multiplier",
+        "rows",
+        "deterministic_repeat_equal"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_1_resource_feasibility.csv",
+      "source": "Chapter_27/data/exercise_27_1_resource_feasibility.csv",
+      "bytes": 2107,
+      "sha256": "131599d604aaab744e49d75b139e0bb11704aa339d3400a5b7fe0340df79e17d",
+      "status": "deterministic model output; not physical measurements",
+      "rows": 30,
+      "columns": [
+        "application",
+        "board",
+        "flash_headroom_kib",
+        "ram_headroom_kib",
+        "radio_ok",
+        "static_feasible"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_2_scheduler_sweep.csv",
+      "source": "Chapter_27/data/exercise_27_2_scheduler_sweep.csv",
+      "bytes": 3911,
+      "sha256": "cdbb25e47757af3b10615b431e6631e818e0b38d76aab92375ae60c808df92e3",
+      "status": "deterministic model output; not physical measurements",
+      "rows": 34,
+      "columns": [
+        "policy",
+        "load_scale",
+        "offered_demand_pct",
+        "jobs",
+        "misses",
+        "miss_rate",
+        "mean_response_ms",
+        "p95_response_ms",
+        "max_lateness_ms"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_3_pedagogical_agreement_data.csv",
+      "source": "Chapter_27/data/exercise_27_3_pedagogical_agreement_data.csv",
+      "bytes": 1388,
+      "sha256": "51ea8664c41971209ac3f1d89c9c7f2cf9f36c81204be27493323343869e664a",
+      "status": "pedagogical synthetic paired values or their derived summary; NEVER raw hardware evidence",
+      "rows": 14,
+      "columns": [
+        "board",
+        "configuration",
+        "simulator_speedup",
+        "hardware_speedup",
+        "relative_error_pct",
+        "predeclared_limit_pct",
+        "data_origin"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_3_pedagogical_agreement_summary.csv",
+      "source": "Chapter_27/data/exercise_27_3_pedagogical_agreement_summary.csv",
+      "bytes": 386,
+      "sha256": "31b2875f2241c148d1f3d74558feb2570db0238183bc115ed6dee419f575615b",
+      "status": "pedagogical synthetic paired values or their derived summary; NEVER raw hardware evidence",
+      "rows": 2,
+      "columns": [
+        "board",
+        "n",
+        "mean_error_pct",
+        "std_error_pct",
+        "max_abs_error_pct",
+        "mean_difference",
+        "loa_low",
+        "loa_high",
+        "acceptance_limit_pct",
+        "passes_bound"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_4_lut_pareto.csv",
+      "source": "Chapter_27/data/exercise_27_4_lut_pareto.csv",
+      "bytes": 900,
+      "sha256": "bac55e5e3cb605bcb205004ff807996c6b97974b0aa6271bf4bca913b4a4b9c0",
+      "status": "deterministic model output; not physical measurements",
+      "rows": 12,
+      "columns": [
+        "bits",
+        "levels",
+        "packed_table_bytes",
+        "aligned_table_bytes",
+        "metadata_bytes",
+        "packed_total_bytes",
+        "aligned_total_bytes",
+        "rmse",
+        "max_abs_error"
+      ]
+    },
+    {
+      "path": "chapter_27/data/exercise_27_4_lut_sweep.csv",
+      "source": "Chapter_27/data/exercise_27_4_lut_sweep.csv",
+      "bytes": 1286,
+      "sha256": "52621ba82ec545d22baa9137fcfeed5801c6f6b395634fd2255c0963a27afafb",
+      "status": "deterministic model output; not physical measurements",
+      "rows": 18,
+      "columns": [
+        "bits",
+        "levels",
+        "packed_table_bytes",
+        "aligned_table_bytes",
+        "metadata_bytes",
+        "packed_total_bytes",
+        "aligned_total_bytes",
+        "rmse",
+        "max_abs_error"
+      ]
+    },
+    {
+      "path": "chapter_27/environment_manifest.json",
+      "source": "Chapter_27/environment_manifest.json",
+      "bytes": 529,
+      "sha256": "543f083db36a748562fd4cab598df364fe3b12b9984296916fad38b1897e6b7e",
+      "status": "archived reference software environment; not a dataset or physical measurement",
+      "top_level_keys": [
+        "_comment",
+        "python_major_minor",
+        "python_reference_full_version",
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    },
+    {
+      "path": "chapter_28/project_candidates.csv",
+      "source": "Chapter_28/project_candidates.csv",
+      "bytes": 2017,
+      "sha256": "5d0fff6be8ddd7a1d6d6d42d47ebca9dc7dc140001cfad615d1883dc5d62d6d3",
+      "status": "illustrative project-planning catalogue; subjective planning estimates",
+      "rows": 12,
+      "columns": [
+        "id",
+        "topic",
+        "suggested_track",
+        "area",
+        "data",
+        "hardware_required",
+        "gpu_required",
+        "restricted_data",
+        "minimum_team_size",
+        "typical_duration_weeks",
+        "primary_metrics",
+        "novelty",
+        "feasibility",
+        "data_access",
+        "reproducibility",
+        "technical_depth",
+        "evidence_potential"
+      ]
+    }
+  ],
+  "external_source_notes": [
+    {
+      "chapter": 21,
+      "source": "Michelinakis et al., Dissecting Energy Consumption of NB-IoT Devices Empirically, IEEE Internet of Things Journal (2021)",
+      "doi": "10.1109/JIOT.2020.3013949",
+      "url": "https://doi.org/10.1109/JIOT.2020.3013949",
+      "used": "Reported aggregate energy constants for a specified commercial module/operator and operating condition; reference to tables IV, V and VII and PSM discussion in notebook.",
+      "not_included": "Original raw measurement traces or full published tables.",
+      "limitation": "PSM_W = 10e-6 is a representative rounded value within the reported 9.35-10.61 microwatt range; battery/capacity/sleep assumptions remain model choices. Do not describe every model constant as an exact measured median."
+    },
+    {
+      "chapter": 21,
+      "source": "Ratilainen, IETF 97 NB-IoT presentation; Wang et al. 2017; Deutsche Telekom/IoT Creators LTE-M documentation",
+      "urls": [
+        "https://www.ietf.org/proceedings/97/slides/slides-97-lpwan-30-nb-iot-presentation-00.pdf",
+        "https://doi.org/10.1109/MCOM.2017.1600510CM",
+        "https://docs.iotcreators.com/docs/lte-m-network-information"
+      ],
+      "used": "Link-budget/repetition/data-rate reference points and published implementation capability figures.",
+      "limitation": "Not a common controlled experimental dataset; keep idealised combining, planning reference points and published implementation values distinct."
+    },
+    {
+      "chapter": 27,
+      "source": "LUT-KAN companion research artifact and publications cited in Chapter 27",
+      "url": "https://github.com/KuznetsovKarazin/lut-kan",
+      "used": "Published agreement bounds inform the deterministic pedagogical example.",
+      "not_included": "Raw simulator/hardware logs and experimental firmware.",
+      "limitation": "The 14 paired values in exercise_27_3_pedagogical_agreement_data.csv are synthetic; simulator_speedup/hardware_speedup are teaching column names, not evidence of measurements."
+    }
+  ],
+  "excluded_files": [
+    {
+      "source": "Chapter_27/wokwi_template/diagram.json",
+      "reason": "Simulator wiring configuration, not a dataset; retain with chapter code support."
+    }
+  ],
+  "reproduction": "Use the corresponding notebook in the companion repository. Most data are generated in memory; no separate raw dataset download is needed. Existing CSV/JSON files copied here are byte-identical source-archive files. Current notebook execution evidence is maintained separately in the companion audit.",
+  "path_resolution": "notebook paths are relative to repository root; packaged file paths are relative to data/; original_source_path/source describe the source archive, not a required local folder."
+}

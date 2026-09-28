@@ -1,0 +1,6 @@
+{
+  "selected_scenario": "museum_climate",
+  "interval_multiplier": 1.0,
+  "output_directory": "outputs",
+  "note": "Synthetic teaching configuration; values are illustrative and are not deployment recommendations."
+}

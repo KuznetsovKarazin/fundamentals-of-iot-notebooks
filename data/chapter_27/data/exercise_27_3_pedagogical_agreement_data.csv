@@ -1,0 +1,15 @@
+board,configuration,simulator_speedup,hardware_speedup,relative_error_pct,predeclared_limit_pct,data_origin
+Arduino Mega 2560,cfg-01,7.2,7.19424,-0.08,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-02,10.4,10.40312,0.03,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-03,14.6,14.608759999999998,0.06,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-04,18.1,18.092760000000002,-0.04,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-05,20.8,20.81872,0.09,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-06,24.3,24.29757,-0.01,0.1,pedagogical_synthetic_from_published_bounds
+Arduino Mega 2560,cfg-07,27.1,27.11355,0.05,0.1,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-01,5.8,5.7507,-0.85,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-02,8.9,8.9356,0.4,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-03,11.4,11.371500000000001,-0.25,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-04,14.8,14.903599999999999,0.7,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-05,17.2,17.1054,-0.55,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-06,19.6,19.629400000000004,0.15,1.0,pedagogical_synthetic_from_published_bounds
+ESP32-C3,cfg-07,22.3,22.505160000000004,0.92,1.0,pedagogical_synthetic_from_published_bounds

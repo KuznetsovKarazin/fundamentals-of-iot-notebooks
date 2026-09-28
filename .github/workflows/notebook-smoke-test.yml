@@ -5,11 +5,13 @@ on:
     paths:
       - "notebooks/**/*.ipynb"
       - "requirements.txt"
+      - "scripts/validate_notebooks.py"
       - ".github/workflows/notebook-smoke-test.yml"
   pull_request:
     paths:
       - "notebooks/**/*.ipynb"
       - "requirements.txt"
+      - "scripts/validate_notebooks.py"
 
 jobs:
   execute-notebooks:
@@ -22,7 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
@@ -31,8 +33,4 @@ jobs:
 
       - name: Execute notebooks
         run: |
-          mkdir -p executed_notebooks
-          for nb in notebooks/*.ipynb; do
-            echo "Executing $nb"
-            jupyter nbconvert --to notebook --execute "$nb" --output-dir executed_notebooks
-          done
+          python scripts/validate_notebooks.py

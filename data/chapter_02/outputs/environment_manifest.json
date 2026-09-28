@@ -1,0 +1,25 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8"
+  },
+  "requirements_satisfied": {
+    "numpy": {
+      "installed": "2.4.4",
+      "constraint": ">=1.26,<3",
+      "satisfied": true
+    },
+    "pandas": {
+      "installed": "3.0.2",
+      "constraint": ">=2.1,<4",
+      "satisfied": true
+    },
+    "matplotlib": {
+      "installed": "3.10.8",
+      "constraint": ">=3.8,<4",
+      "satisfied": true
+    }
+  }
+}

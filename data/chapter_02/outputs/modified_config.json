@@ -1,0 +1,7 @@
+{
+  "selected_scenario": "museum_climate",
+  "interval_multiplier": 5.0,
+  "output_directory": "outputs",
+  "note": "Synthetic teaching configuration; values are illustrative and are not deployment recommendations.",
+  "run_note": "Teaching sensitivity check: make the sampling interval five times longer."
+}

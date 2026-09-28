@@ -1,0 +1,13 @@
+id,topic,suggested_track,area,data,hardware_required,gpu_required,restricted_data,minimum_team_size,typical_duration_weeks,primary_metrics,novelty,feasibility,data_access,reproducibility,technical_depth,evidence_potential
+P1,Environmental sensor calibration and drift,Foundation,sensor/data,public or synthetic,0,0,0,1,8,"RMSE, bias, uncertainty",3,5,5,5,3,4
+P2,Battery-aware duty-cycle design for a remote node,Foundation,device/energy,synthetic workload,0,0,0,1,8,"lifetime, latency",3,5,5,5,3,3
+P3,Wi-Fi vs BLE for periodic telemetry,Foundation,communications,synthetic workload,0,0,0,1,8,"modelled energy, latency, throughput",2,5,5,5,3,3
+P4,MQTT QoS under intermittent connectivity,Foundation,protocols,synthetic/network trace,0,0,0,1,10,"delivery ratio, bytes, delay",3,5,5,5,4,4
+P5,Modbus-to-MQTT brownfield gateway,Capstone,industrial/gateway,synthetic registers,0,0,0,2,14,"latency, reliability, recoverability",4,4,4,4,5,5
+P6,LoRaWAN link-budget planning for campus sensing,Capstone,LPWAN,site assumptions,0,0,0,1,12,"coverage margin, airtime, modelled energy",3,4,4,5,4,4
+P7,Edge person detection under MCU resource limits,Research,edge AI,public image dataset,1,0,0,1,16,"accuracy, latency, memory, energy",5,3,5,4,5,5
+P8,Lightweight KAN intrusion detection for IoT,Research,security/AI,CICIDS2017 or newer benchmark,0,0,0,1,14,"F1, latency, model size",4,4,5,4,5,5
+P9,Merkle proofs for IoT data-integrity audit trails,Capstone,security/data,synthetic records,0,0,0,1,12,"proof size, build/verify time",4,5,5,5,4,4
+P10,Post-quantum algorithm benchmarking on constrained nodes,Research,security/crypto,standard test vectors,1,0,0,1,16,"time, RAM, flash, energy",5,3,5,4,5,5
+P11,Privacy-preserving biometric authentication for edge systems,Research,biometrics/privacy,licensed public datasets,0,1,1,1,16,"EER/FMR/FNMR, latency, template size",5,2,3,3,5,5
+P12,Resilient dual-link IoT architecture with failover,Capstone,architecture,fault scenarios,1,0,0,2,16,"availability, recovery time, cost",4,3,4,4,5,4
