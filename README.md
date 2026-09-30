@@ -17,7 +17,7 @@ The Chapter 1 workflow is **open → run → inspect → modify → rerun → in
 3. Read the setup cells, then choose **Runtime → Run all**. Run from the top in a fresh runtime when checking reproducibility.
 4. Inspect the tables and plots, try the challenge tasks, and explain how your changed assumptions affect the result.
 
-This repository is public; the Colab links below open notebooks directly from GitHub. You can also [download the checked 28-notebook snapshot from Google Drive](https://drive.google.com/file/d/1I9LOAvg60-IoF98NInUrroKNQ8DnRJaX/view), extract it, and select **File → Upload notebook** in Colab. This dated ZIP is the current Drive snapshot; individual chapter copies are still awaiting synchronization. Record the GitHub commit or the dated snapshot when reporting which version you ran.
+This repository is public; the Colab links below open notebooks directly from GitHub. You can also [download the checked 28-notebook snapshot from Google Drive](https://drive.google.com/file/d/1I9LOAvg60-IoF98NInUrroKNQ8DnRJaX/view), extract it, and select **File → Upload notebook** in Colab. The ZIP and all 28 individual chapter copies on Drive were synchronized with the checked notebooks on 29 September 2026. Record the GitHub commit or the dated snapshot when reporting which version you ran.
 
 ## Choose a learning track
 
@@ -125,7 +125,9 @@ See [validation details](docs/validation.md) for the two methods, recorded envir
 
 ## Cite and contribute
 
-Please cite the textbook and identify the repository commit or release used in your work. [`CITATION.cff`](CITATION.cff) supplies repository citation metadata. Publication and archival metadata will be added when assigned.
+Version **0.2.0** was published on Zenodo on **30 September 2026**, using the distribution snapshot prepared on 29 September. The archived support files preserve their historical status notes; this repository supplies the updated access and citation information.
+
+Please cite the textbook and the archived companion package on Zenodo: [doi:10.5281/zenodo.23025760](https://doi.org/10.5281/zenodo.23025760). Identify the repository commit or release used in your work. [`CITATION.cff`](CITATION.cff) supplies the companion citation metadata; textbook publication metadata will be added when assigned.
 
 For a reproducible issue report, include the chapter, failing cell, Python/package versions, complete error message, and whether you ran in Colab or locally. Suggestions that improve clarity, accessibility, and reproducibility are welcome.
 

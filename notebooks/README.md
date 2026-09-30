@@ -1,6 +1,6 @@
 # Chapter notebooks
 
-This folder contains **28 main notebooks**, one for each chapter of *Fundamentals of the Internet of Things*. Use the [notebook index](../docs/notebook-index.md) for the full chapter table, GitHub-backed Colab links, and the checked Drive ZIP. Individual legacy Drive copies are awaiting synchronization. The [main README](../README.md) provides learning tracks and installation instructions.
+This folder contains **28 main notebooks**, one for each chapter of *Fundamentals of the Internet of Things*. Use the [notebook index](../docs/notebook-index.md) for the full chapter table, GitHub-backed Colab links, and the checked Drive ZIP. All 28 individual Drive copies were synchronized with the checked notebooks on 29 September 2026. The [main README](../README.md) provides learning tracks and installation instructions.
 
 Run setup cells first, then execute from top to bottom in a fresh kernel. Work in your own copy when changing parameters. The core exercises require no physical IoT board; optional hardware investigations need separate measurements and validation.
 

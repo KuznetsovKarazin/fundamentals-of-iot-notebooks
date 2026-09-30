@@ -16,6 +16,6 @@ Public availability of a companion notebook does not imply permission to upload 
 
 ## Access and versions
 
-This repository is publicly accessible, and its GitHub-backed Colab links provide a direct route to the notebooks. Public access does not change the license or publisher permissions applicable to each type of material. The dated Drive snapshot is an alternative download route; individual legacy Drive copies are still awaiting synchronization.
+This repository is publicly accessible, and its GitHub-backed Colab links provide a direct route to the notebooks. Public access does not change the license or publisher permissions applicable to each type of material. The dated Drive snapshot and individual chapter copies provide alternative download routes. All 28 individual Drive notebooks were synchronized with the checked version on 29 September 2026.
 
-Record the exact repository commit or release when citing computational work. Do not treat a mutable Drive copy or the `main` branch as an archival version.
+The archived companion package is available on Zenodo at [doi:10.5281/zenodo.23025760](https://doi.org/10.5281/zenodo.23025760). Record this DOI and the exact repository commit or release when citing computational work. Do not treat a mutable Drive copy or the `main` branch as an archival version.
